@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl"
+          xmlns:xbl="http://www.mozilla.org/xbl" 
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+		  	
+	<binding id="$bindingId">
+		<content>
+			
+			<html:div style="border:1px dotted red; display:table">
+				<html:img style="padding-left:2px; padding-right:1px" src="${panelGrid.getReadOnlyImage()}" /> 
+#if($panelGrid.hasWarningMessage())
+				<html:img style="padding-left:1px" src="${panelGrid.getWarningImage()}" /> 
+#end
+				<html:br/>
+			<html:table 
+#if($panelGrid.getClassName()) 
+				class="${panelGrid.getClassName()}"
+#end 
+
+#if($panelGrid.getEmptyColumns())
+				width="200" border="0"
+#end
+				anonid="anontable">
+
+#if($panelGrid.getHeader())
+				<html:thead>
+					<html:tr>
+						<html:th 
+#if($panelGrid.getHeader().getClassName())
+							class="${panelGrid.getHeader().getClassName()}"
+#end
+							colspan="${panelGrid.getColumnCount()}" 
+							scope="colgroup">
+								
+							${panelGrid.getHeader().getOutputValue()}
+						</html:th>
+					</html:tr>
+				</html:thead>
+#end
+#if($panelGrid.getFooter())
+				<html:tfoot>
+					<html:tr>
+						<html:td 
+#if($panelGrid.getFooter().getClassName())
+							class="${panelGrid.getFooter().getClassName()}" 
+#end
+							colspan="${panelGrid.getColumnCount()}">
+							
+							${panelGrid.getFooter().getOutputValue()}
+						</html:td>
+					</html:tr>
+				</html:tfoot>
+#end
+				<html:tbody>
+#if ($panelGrid.getRowCount() > 0)
+#foreach($row in $panelGrid.getRows())
+					<html:tr #if($row.getClassName()) class="${row.getClassName()}"#end>
+#foreach($col in $row.getColumns())
+						<html:td #if($col.getClassName()) class="${col.getClassName()}"#end>
+							${col.getOutputValue()}
+						</html:td>
+#end
+					</html:tr>
+#end
+#else
+					<html:tr #if($row.getClassName()) class="${row.getClassName()}"#end>
+#foreach($emptyColumn in $panelGrid.getEmptyColumns())
+						<html:td>
+							$emptyColumn.toString()
+						</html:td>
+#end
+					</html:tr>
+#end
+				</html:tbody>
+			</html:table>
+			</html:div>
+			<html:span style="display:none"><children/></html:span>
+		</content>
+	    
+	    <!-- 
+	    	TODO provide impl that manages style attrs for panelgrid element
+	    -->
+		<implementation>
+#parse("wd3/templates/jsf/html/commonimpl.vm")
+			<method name="update">
+	    		<body><![CDATA[
+	    			var anontable = document.getAnonymousElementByAttribute(this, "anonid", "anontable");
+	    			this.cloneAttributes(this, anontable, new Array("border","bgcolor","cellpadding","cellspacing","width","rules","frame","title"));
+#if($panelGrid.hasWarningMessage())
+					this.setAttribute("title", "$panelGrid.getWarningMessage()");
+#else
+					this.setAttribute("title", "$panelGrid.getReadOnlyMessage()");
+#end	    			
+	    		]]></body>
+	    	</method>
+		</implementation>
+	    
+	</binding>
+</bindings>

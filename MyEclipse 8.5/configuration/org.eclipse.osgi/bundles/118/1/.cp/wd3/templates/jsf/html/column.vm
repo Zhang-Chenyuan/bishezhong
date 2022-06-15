@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl"
+          xmlns:xbl="http://www.mozilla.org/xbl" 
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+		  	
+	<binding id="$bindingId">
+		<content>
+			<html:table width="100%" 
+				anonid="anontable">
+#if($column.getHeader())
+				<html:thead>
+					<html:tr>
+						<html:th 
+#if($column.getHeader().getClassName())
+							class="${column.getHeader().getClassName()}"
+#end
+							scope="colgroup">
+							${column.getHeader().getOutputValue()}
+						</html:th>
+					</html:tr>
+				</html:thead>
+#end
+
+#if($column.getFooter())
+				<html:tfoot>
+					<html:tr>
+						<html:td #if($column.getFooter().getClassName()) 
+							class="${column.getFooter().getClassName()}" #end>
+								${column.getFooter().getOutputValue()}
+						</html:td>
+					</html:tr>
+				</html:tfoot>
+#end
+
+				<html:tbody>
+					<html:tr #if($column.getDataRowClassName()) class="${column.getDataRowClassName()}" #end >
+						<html:td #if($column.getData().getClassName()) class="${column.getData().getClassName()}"#end
+								#if($column.getData().isEmpty()) width="50" #end>
+							${column.getData().getOutputValue()}
+						</html:td>
+					</html:tr>
+				</html:tbody>
+			</html:table>
+			<html:div style="display:none"><children/></html:div>
+		</content>
+	    
+	    <!-- 
+	    	TODO provide impl that manages style and styleClass attrs for panelgrid element
+	    -->
+		<implementation>
+#parse("wd3/templates/jsf/html/commonimpl.vm")	    
+	    	
+			<method name="update">
+	    		<body><![CDATA[
+	    			var anontable = document.getAnonymousElementByAttribute(this, "anonid", "anontable");
+	    			this.cloneAttributes(this.parentNode, anontable, new Array("cellpadding","cellspacing"));
+	    			//this.cloneAttributes(this, anontable, new Array("border","bgcolor","cellpadding","cellspacing","width","rules","frame","title"));
+	    		]]></body>
+	    	</method>
+		</implementation>
+	    
+	</binding>
+</bindings>

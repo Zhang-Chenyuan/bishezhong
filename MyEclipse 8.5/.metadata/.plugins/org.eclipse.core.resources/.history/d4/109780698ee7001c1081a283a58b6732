@@ -1,0 +1,149 @@
+﻿package servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.db.conn;
+
+public class admin_Pass extends HttpServlet {
+
+	/**
+	 * Constructor of the object.
+	 */
+	public admin_Pass() {
+		super();
+	}
+
+	/**
+	 * Destruction of the servlet. <br>
+	 */
+	public void destroy() {
+		super.destroy(); // Just puts "destroy" string in log
+		// Put your code here
+	}
+
+	/**
+	 * The doPost method of the servlet. <br>
+	 *
+	 * This method is called when a form has its tag value method equals to post.
+	 * 
+	 * @param request the request send by the client to the server
+	 * @param response the response send by the server to the client
+	 * @throws ServletException if an error occurred
+	 * @throws IOException if an error occurred
+	 */
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		HttpSession session = request.getSession();
+		String aid=(String) session.getAttribute("adminId");
+		String role=(String) session.getAttribute("role");
+		
+		
+		if(aid==null)
+		{
+			out.println("<script>");
+			out.println("alert('Sorry, please login first！');");
+			out.println("window.top.location='login.jsp'");
+			out.println("</script>");
+		}
+		else
+		{
+			String pwd1=request.getParameter("txt_pwd");
+			String pwd2=request.getParameter("txt_pwd2");
+
+			conn cn=new conn();
+			
+			
+			if(role.equals("관리인"))
+			{
+				String sql="select * from admin where aid="+aid+" and pwd='"+pwd1+"' ";
+				
+				ResultSet rs=cn.query(sql);
+			
+					try {
+						if(rs.next()){
+							
+							sql="update admin set pwd='"+pwd2+"' where aid="+aid;
+							cn.update(sql);
+							
+							out.println("<script>");
+							out.println("alert('Congratulations: the modification is successful!');");
+							out.println("window.location='admin/admin/pass.jsp'");
+							out.println("</script>");
+						}
+						else
+						{
+							out.println("<script>");
+							out.println("alert('Sorry, the original password is wrong, please re-enter!');");
+							out.println("window.location='admin/admin/pass.jsp'");
+							out.println("</script>");
+						}
+							
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+			}
+			else
+			{
+				String sql="select * from member where lname='"+aid+"' and password='"+pwd1+"' ";
+				
+				ResultSet rs=cn.query(sql);
+			
+					try {
+						if(rs.next()){
+							
+							sql="update member set password='"+pwd2+"' where lname='"+aid+"' ";
+							cn.update(sql);
+							
+							out.println("<script>");
+							out.println("alert('Congratulations: the modification is successful!');");
+							out.println("window.location='admin/admin/pass.jsp'");
+							out.println("</script>");
+						}
+						else
+						{
+							out.println("<script>");
+							out.println("alert('Sorry, the original password is wrong, please re-enter!');");
+							out.println("window.location='admin/admin/pass.jsp'");
+							out.println("</script>");
+						}
+							
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+			}
+
+			
+			
+			out.flush();
+			out.close();
+		}		
+	}
+
+	/**
+	 * Initialization of the servlet. <br>
+	 *
+	 * @throws ServletException if an error occurs
+	 */
+	public void init() throws ServletException {
+		// Put your code here
+	}
+
+}
+
+

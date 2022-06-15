@@ -1,0 +1,2946 @@
+Manifest-Version: 1.0
+Export-Package: com.genuitec.eclipse.webdesigner3,com.genuitec.eclipse
+ .webdesigner3.action,com.genuitec.eclipse.webdesigner3.bindings,com.g
+ enuitec.eclipse.webdesigner3.design,com.genuitec.eclipse.webdesigner3
+ .dnd,com.genuitec.eclipse.webdesigner3.editors,com.genuitec.eclipse.w
+ ebdesigner3.palette,com.genuitec.eclipse.webdesigner3.palette.actions
+ ,com.genuitec.eclipse.webdesigner3.palette.actions.jsf,com.genuitec.e
+ clipse.webdesigner3.palette.actions.struts,com.genuitec.eclipse.webde
+ signer3.preferences,com.genuitec.eclipse.webdesigner3.preview,com.gen
+ uitec.eclipse.webdesigner3.preview.adapters,com.genuitec.eclipse.webd
+ esigner3.preview.jsf,com.genuitec.eclipse.webdesigner3.preview.struts
+ ,com.genuitec.eclipse.webdesigner3.properties,com.genuitec.eclipse.we
+ bdesigner3.properties.jsf,com.genuitec.eclipse.webdesigner3.propertie
+ s.struts,com.genuitec.eclipse.webdesigner3.src,com.genuitec.eclipse.w
+ ebdesigner3.toolbar,com.genuitec.eclipse.webdesigner3.util,com.genuit
+ ec.eclipse.webdesigner3.wizard,com.genuitec.eclipse.webdesigner3.wiza
+ rd.jsf,com.genuitec.eclipse.webdesigner3.wizard.struts,jp.aonir.fuzzy
+ xml,jp.aonir.fuzzyxml.event,jp.aonir.fuzzyxml.internal,jp.aonir.fuzzy
+ xml.resources,jp.aonir.fuzzyxml.sample,jp.aonir.fuzzyxml.xpath,tk.ecl
+ ipse.plugin.htmleditor,tk.eclipse.plugin.jsf,tk.eclipse.plugin.jspedi
+ tor.converters,tk.eclipse.plugin.jspeditor.editors,tk.eclipse.plugin.
+ struts
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Require-Bundle: com.genuitec.eclipse.core,com.genuitec.eclipse.core.co
+ mmon,com.genuitec.eclipse.cross.easystruts.eclipse,com.genuitec.eclip
+ se.j2eedt.core,com.genuitec.eclipse.javascript,com.genuitec.eclipse.t
+ emplates,com.ibm.icu,org.eclipse.core.filesystem,org.eclipse.core.res
+ ources,org.eclipse.gef,org.eclipse.help.base,org.eclipse.jdt.ui,org.e
+ clipse.jst.jsp.core,org.eclipse.jst.jsp.ui,org.eclipse.ui.forms,org.e
+ clipse.ui.views,org.eclipse.wst.css.core,org.eclipse.wst.html.core,or
+ g.eclipse.wst.html.ui,org.eclipse.wst.sse.core,org.eclipse.wst.sse.ui
+ ,org.eclipse.wst.validation,org.eclipse.wst.xml.core,org.eclipse.wst.
+ xml.ui,org.eclipse.ui.browser,org.eclipse.wst.common.uriresolver,org.
+ mozilla.xpcom,org.eclipse.atf.mozilla.ide.core,org.eclipse.wst.jsdt.c
+ ore,org.apache.commons.collections,org.apache.commons.jxpath,org.apac
+ he.commons.io
+Bundle-Vendor: %providerName
+Bundle-Version: 8.5.0.me201003231033
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.genuitec.eclipse.webdesigner3.WebDesigner3Plugin
+Bundle-SymbolicName: com.genuitec.eclipse.webdesigner3; singleton:=tru
+ e
+Import-Package: com.genuitec.eclipse.modeling.palette
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsAnchor
+ PropertiesFormPart.class
+SHA1-Digest: FYKVfki63iQph3oCJnGUuZLisso=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsForm
+ Wizard.class
+SHA1-Digest: NgNsq31V8vh0RMpq1itKWbH9gBQ=
+
+Name: icons/elcl16/form.gif
+SHA1-Digest: Iv+UM75yV2DqW6vQ1CN7c9uUMyk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $ColorControlManager.class
+SHA1-Digest: VMdOSt2Aget7t9eUUcuEF5d5Fe4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericCompo
+ nentPropertiesFormPart$ComboControlManager.class
+SHA1-Digest: 0S0cY0QahmHmgb0MIGNOj05yMi8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsHidd
+ enFieldWizard.class
+SHA1-Digest: 04b6WlrjVHHjV4jm9XHjKCyC4kw=
+
+Name: com/genuitec/eclipse/webdesigner3/design/UnsupportedEditAction.c
+ lass
+SHA1-Digest: mnu7akcZGB6MQnn1D2X7abyiblI=
+
+Name: icons/elcl16/bold.gif
+SHA1-Digest: 6tFNnLnq5tiy0XZYu9EPfOejzEs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateCheckboxWizardPag
+ e.class
+SHA1-Digest: YqCRV4GR3w7BHDPHn+Da02jC1i8=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests.class
+SHA1-Digest: tk7jDE9E4ZZZMtvj7hrcd8iER1I=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/ListItemEntry.class
+SHA1-Digest: GuUCjOq5oHX7d2JFSiG8MqhdhnQ=
+
+Name: icons/elcl16/errors.gif
+SHA1-Digest: nNrR717PhkxK5silkLh/o7f7WGY=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/jsf/RunJSFWiza
+ rdAction.class
+SHA1-Digest: /GJElh8/6zksKAmYLn7EymfkaNg=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/AlignmentAction.class
+SHA1-Digest: FiitlDo0+88k89bMKz5bFs3wjD8=
+
+Name: icons/dlcl16/password.gif
+SHA1-Digest: AmCQHEbYco8IxfQzR8zoIpFPEBg=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/InsertImageAct
+ ion.class
+SHA1-Digest: bi8AFgUrK8oRX9jpvr/Uirq/I/I=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemDialog
+ .class
+SHA1-Digest: pqbcO2ooeGJ8XW0F4g7cOPQAMRw=
+
+Name: jp/aonir/fuzzyxml/sample/Console$ReplaceNodeAction.class
+SHA1-Digest: PkESGKJn1wI44s0wxHaKQwsEoQU=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/jsf/JSFElement
+ Actions$ActionComparator.class
+SHA1-Digest: rReZj1VHcnHhJvYsFjTLumNmzBY=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateButtonWizard.clas
+ s
+SHA1-Digest: +83k8ibd4JrpBQ1YAghBI0FmQfU=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsChec
+ kboxWizardPage.class
+SHA1-Digest: DD69cNJV2tvI9Ahbp96K8H53N8k=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DesignEditSystem$3.clas
+ s
+SHA1-Digest: 7WezcsaVUheJRX/aqVGd5fMzvwo=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCommandButton
+ Wizard.class
+SHA1-Digest: +Y2mtyvAqSu1wcF0NY+Dh9YZToc=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$SourceSe
+ lectionTestLogListener.class
+SHA1-Digest: 1FrRWSWYfyBFmHdF9O/V/NckCVo=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/SelectionItemLa
+ belProvider.class
+SHA1-Digest: d6QqA+XDucdyZBWv190vxZj+ldM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsMess
+ agesWizardPage.class
+SHA1-Digest: sKW4iddU/xmE96mNeTKFWBgMfhs=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditor$Selection
+ TimerTask$1.class
+SHA1-Digest: ZwUZ98ZHkhNwRUdXk1NlrqpiPMw=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaKeyListener$2.cl
+ ass
+SHA1-Digest: 6lWqfMDT2lgEvuu7BHj5OhgLYdQ=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/InsertImageWizardPage.c
+ lass
+SHA1-Digest: 2S2LWl23jJCCaBYxpZomZPWmDjg=
+
+Name: wd3/bindings/baselabel.xml
+SHA1-Digest: W0V4rVURuQN6oNJESR93BEqG6jA=
+
+Name: tk/eclipse/plugin/htmleditor/ICustomTagConverterContributer.clas
+ s
+SHA1-Digest: JAYzLQmhoJwK3rCroOnJ3/CJL/4=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateTextAreaWizar
+ d.class
+SHA1-Digest: iMaBxENBdzz7u5pLfIEarHXsF6U=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/DynamicBindingManager
+ .class
+SHA1-Digest: WOnWI79MYay3ncYBOW975hSoLyE=
+
+Name: jp/aonir/fuzzyxml/sample/Console$ErrorInfo.class
+SHA1-Digest: ZjQyARpT+DE7w/s9WPI08tCpeo4=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SynchronizationReconciler$
+ 2.class
+SHA1-Digest: FP0JSMynFG3wWxg+TLn1tDCp2CQ=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceEditSystem$1.class
+SHA1-Digest: Js71QfLtfrFZY3qQ3bU9aXU48MY=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsRadi
+ oWizard.class
+SHA1-Digest: ezfCMuZyUCBIYh9HraWuuBM9u9M=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/TextAttributeAction.cl
+ ass
+SHA1-Digest: 5QM2ibH5OBEHnK54Onkgcf8zMqo=
+
+Name: com/genuitec/eclipse/webdesigner3/action/IRefreshableAction.clas
+ s
+SHA1-Digest: dc0g28v9e6Wpxmoa5OuEeKM2l5s=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/Parameter.class
+SHA1-Digest: 92tqBJvNEopfJ7xSYjMZiiwTtzg=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$1.class
+SHA1-Digest: fxxPDM8pgKtW2F2Si6xsqntO8yU=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsList
+ WizardPage.class
+SHA1-Digest: 66du1ts7UBL/Gve5D/Vsro5ZGb0=
+
+Name: icons/elcl16/link.gif
+SHA1-Digest: 2dAhNJkZdwcMrTLRWJdXWz3dZQM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsImageP
+ ropertiesFormPart.class
+SHA1-Digest: uRLXu83z7RukNtHc+MbOXK6c7E4=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/DataTableBinding.clas
+ s
+SHA1-Digest: GuG9vV0LB9/F9ZQGDnIkOWKCKRI=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itorContributor.class
+SHA1-Digest: sVGbtPiQEWDyZFz6So5kC7hzw7k=
+
+Name: icons/wizban/CreateImageButton.gif
+SHA1-Digest: i/2XsNvw7uoefz/d3l2Nb+JhMuo=
+
+Name: icons/dlcl16/form.gif
+SHA1-Digest: iqL/gY0oBTXaRpn9A2N/j+QWqDE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGridPanelPro
+ pertiesFormPart.class
+SHA1-Digest: shth7hHnr8e6gal4F6K6FI2tFAM=
+
+Name: icons/dlcl16/radio.gif
+SHA1-Digest: AeckutKWelzZnDRZs3uxlonre/c=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsTextareaAction.class
+SHA1-Digest: mqSvLfXhVjc1BQN6EROuowoClaM=
+
+Name: icons/wizban/CreateCheckboxGroup.gif
+SHA1-Digest: YK3NMqrfpUqqVFVusArqu1Oiwgc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCommandButton
+ WizardPage.class
+SHA1-Digest: NxARKlq/L8PrM1SGQW4mZq0nFcg=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLProcessingInstruction.class
+SHA1-Digest: kKIys18Ddz65Y49ReSJ0694jwRU=
+
+Name: com/genuitec/eclipse/webdesigner3/util/StringUtils.class
+SHA1-Digest: 0m+92+zbfzmPi6APyHCFIz8jjuo=
+
+Name: icons/wizban/CreateDropdown.gif
+SHA1-Digest: PUjnGsOZgt695o1FZMTMIN84JQ0=
+
+Name: icons/wizban/CreateForm.gif
+SHA1-Digest: 972kyn3+IkXm3yIyMfSYRlkwxBI=
+
+Name: com/genuitec/eclipse/webdesigner3/action/AddBlockCommentActionJS
+ PDelegate.class
+SHA1-Digest: 3vsFU92vlI52RET2GFeKohiUxQs=
+
+Name: icons/elcl16/rule.gif
+SHA1-Digest: Du16eNtocmUReT07r3lJbFWB9Q0=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/RadioButtonProperti
+ esFormPart.class
+SHA1-Digest: Uzn/qzMc44AJJBIBze2mGAzk7UQ=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/adapters/SSE2FuzzyAttr
+ ibuteAdapter.class
+SHA1-Digest: +do1gnG22CCzXqHzOC1nqcM///s=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsCheckboxC
+ onverter.class
+SHA1-Digest: cplAL9A0NFH6gTip/iDbX5p8SW8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsErro
+ rsWizardPage.class
+SHA1-Digest: 4r5hZ/mPwmRw/BNp1hHETv2hG2s=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionComponentW
+ izardPage.class
+SHA1-Digest: FeSZFapHFGrm+3AwR/bVB7mcjx8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsImag
+ eButtonWizard.class
+SHA1-Digest: ZYU9VZInOaf4wfx7jh9Poj6Zux0=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ComboboxPropertiesF
+ ormPart$ListAdapter.class
+SHA1-Digest: HxbKiSUI8fO4vva8gTQoj1LMDTY=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFOutputFormat
+ PropertiesFormPart.class
+SHA1-Digest: 6iOuoBbe9KZ5x3z6Q5r8pJyJBDs=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/HorizontalRule
+ Action.class
+SHA1-Digest: IbHkLIVLNnKiMnAeKC2P7efFFkw=
+
+Name: plugin.properties
+SHA1-Digest: G1wWANWEfEyxyrFrCNE+FGyiWC8=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesigner3Util$1.class
+SHA1-Digest: 6K0uweF9WpjasTlWxY4oaFGURFg=
+
+Name: jp/aonir/fuzzyxml/resources/message_ja.properties
+SHA1-Digest: Ln0w7lV+Zf7K+/SKKAIQyNGMagM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsChec
+ kboxWizard.class
+SHA1-Digest: z/v9MAlOet+G/619YXFqfWNnqHo=
+
+Name: icons/wizban/CreateText.gif
+SHA1-Digest: bPpsqlrk22kelZ+854dku5Yl5aw=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/Webdesigner3ComboContr
+ ibutionItem$1.class
+SHA1-Digest: M4mE3Q0JWJHlpl1KLtPSZVkBVpM=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesigner3Plugin$1.class
+SHA1-Digest: eIFD2iI19OJgHisQMN+ak9aZGr4=
+
+Name: tk/eclipse/plugin/jsf/JSFConverter.class
+SHA1-Digest: CV58HAQiBzYoj7qwPXvoADFQBtg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFHyperlinkPro
+ pertiesFormPart$1.class
+SHA1-Digest: s8sJ+6SVf5yMfL0KU+8SYg2tXW4=
+
+Name: com/genuitec/eclipse/webdesigner3/action/InsertRowAboveAction.cl
+ ass
+SHA1-Digest: fnyTKRLQQk4UjOdwkpU0g6jVhzs=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DOMMutationEvent.class
+SHA1-Digest: joeKeW4pFgrfRcFlZYda4ZM9P0M=
+
+Name: com/genuitec/eclipse/webdesigner3/DOMException.class
+SHA1-Digest: ql0kdSf36BUILqYV8iz9etukX6I=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateOutputTextWiz
+ ard.class
+SHA1-Digest: kHNHEMAmfe2rHcZlRFrlSCyqzeQ=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/ElementsProvide
+ r.class
+SHA1-Digest: LwPSBP6TH4T9qOwTVnVGy6+NL0E=
+
+Name: icons/dlcl16/list.gif
+SHA1-Digest: bPelxd3w86PHLO8MJrS/IU6ZNuI=
+
+Name: icons/wizban/CreatePanel.gif
+SHA1-Digest: tFXECNdfdd6ibbSSB3mDqCIS/GY=
+
+Name: icons/elcl16/unorderedlist.gif
+SHA1-Digest: mu63S/YbQeij6EcmcMPk8GOenJw=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/WebDesignerPrefere
+ nces.class
+SHA1-Digest: c7qg15X5OvA+Zn2Fxfeq1FyeMcU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$5.class
+SHA1-Digest: pNj3xDqTSxKeQZjtA7p0P6JwoEU=
+
+Name: wd3/bindings/util.xml
+SHA1-Digest: mWR1okvFUXlVZYxNqqYjE7JyupA=
+
+Name: wd3/bindings/labelcontainer.xml
+SHA1-Digest: 9K4mmFJtiq/ANiTird51yMSjkOg=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsTextfieldAction.class
+SHA1-Digest: 0WAPPi1wTtM2zJU9MZYsv1oa3Z0=
+
+Name: icons/elcl16/underline.gif
+SHA1-Digest: t5K8j8AJn5p8vrr9BLjhKS2ek6I=
+
+Name: icons/elcl16/button.gif
+SHA1-Digest: Wm9AeIwNOD84H2uvm6xsAj/qgrI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $URLControlManager.class
+SHA1-Digest: 5XzvUtrPVlEjOYoLW/VmtDd1heY=
+
+Name: icons/dlcl16/table.gif
+SHA1-Digest: 5HVY1Tsm1wugy/3XT6GL5l3cpLI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsPasswo
+ rdPropertiesFormPart.class
+SHA1-Digest: +1j7GBGwYjqWbEw486B89VkEwJQ=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateAnchorWizard.clas
+ s
+SHA1-Digest: 7sJ0H+HkoJrKavNvIiCi2jFMBW4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/SelectOptionsLabelP
+ rovider.class
+SHA1-Digest: d5I5S+c+zw95UkeUFbAi84yDafk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/StrutsOptionsDia
+ log$1.class
+SHA1-Digest: dnRhBZ5m0TZ0S611lCt+A2/zX9U=
+
+Name: wd3/bindings/struts-html.xml
+SHA1-Digest: 6VET9H8H11ylWY12YuH1BDzCQQI=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/AbstractWebdesignerDropAct
+ ion.class
+SHA1-Digest: vHZYFt2vameNNJGiki36zS+SBUs=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$SourceEditorPropertyListener$1.class
+SHA1-Digest: jnmBX4zs+Wxns14sIy2rxdS3SVM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateCheckboxWizard.cl
+ ass
+SHA1-Digest: PDEM5DnUaXKsAevBxVWVXALVFpU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsButton
+ PropertiesFormPart$ButtonTypeComboPartControlManager.class
+SHA1-Digest: W05zCdnsEu8nlKcfPd25cmhuyj0=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesigner3Util$2.class
+SHA1-Digest: 1xhB/NJhtB3Jl9F3XaHfEHcHF+o=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFMessagesProp
+ ertiesFormPart.class
+SHA1-Digest: F3j9D9eVF6TctUzRxgs431AUEO0=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerAction.class
+SHA1-Digest: epaWKr67KGvW/gM2Pt03nZe+sXU=
+
+Name: icons/elcl16/justifyleft.gif
+SHA1-Digest: ZwjbBfwS8tB3qfQhsLI6T46Gq0U=
+
+Name: com/genuitec/eclipse/webdesigner3/action/CutAction.class
+SHA1-Digest: xcUgHvt/UdraDFXJjtiGRW83MB8=
+
+Name: icons/elcl16/orderedlist.gif
+SHA1-Digest: sA7TZciyklZpcZPoDu5dePgBOcc=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFOutputLabelP
+ ropertiesFormPart.class
+SHA1-Digest: r0bxzExCJfUOwYRwSSJ8FEylMus=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateDataGridWizar
+ dPage.class
+SHA1-Digest: 7PAlQew5WQjCjaZkPuRnxyGKxQU=
+
+Name: wd3/templates/jsf/html/warning.gif
+SHA1-Digest: KmtINYlwTqc3cDLljZdq8gbw8jI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ImagePropertiesForm
+ Part.class
+SHA1-Digest: kudSchRW2EjJQNt43ZJZoa+P6K4=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/AlwaysNeverFieldEd
+ itor$2.class
+SHA1-Digest: 3bJLmWz+EOvLLLwX/EniOWQ0dCk=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer.class
+SHA1-Digest: KnXQ8wsM4dnA3PZyt0P2+dPQaqs=
+
+Name: jp/aonir/fuzzyxml/sample/Console$SampleListener.class
+SHA1-Digest: 3JNx0q4dnZlmVzQWqUbCimfWhH4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFOutputTextPr
+ opertiesFormPart.class
+SHA1-Digest: tCb5UlMO14ObMvwtDI8Gap8zqEg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsSelect
+ ionPropertiesFormPart$SelectListAdapter.class
+SHA1-Digest: lg/+mQe0PqnCU3MlDvWmwiy0xWg=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData$Row.class
+SHA1-Digest: Au6cjyLxaJrMiQWlkIoiMWOXw8o=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesignerAttributeNames.clas
+ s
+SHA1-Digest: SIqN6pOkGVI9AbeEqTk0nRChLAA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateLinkWizard.class
+SHA1-Digest: pRlrJ3zOMk/UWG6Bx3tqb6YQwmk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/ComponentProperties
+ WizardPage.class
+SHA1-Digest: K8AE+6SU6fGFX7NJTmbfuq7yv6E=
+
+Name: icons/dlcl16/imagebutton.gif
+SHA1-Digest: 0xGblPL5y8AuEEUxuKiBn9a/1cQ=
+
+Name: com/genuitec/eclipse/webdesigner3/design/IEditorDOMMutationDeleg
+ ate.class
+SHA1-Digest: pnBObBydmX81JF2uVR07rbAwBB4=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData$Table.class
+SHA1-Digest: GTtfzjtwBWwS+a+HdwWPT1gCYfM=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$InputDate
+ Converter.class
+SHA1-Digest: CzVhSOdsltzMyTxDa3gBlVmDGjo=
+
+Name: icons/elcl16/sync.gif
+SHA1-Digest: DR57ugwDiJp52QcSD6dVrnNLLi4=
+
+Name: wd3/bindings/selectManyMenu.xml
+SHA1-Digest: lCuzfIlI3LYqr05oOvGopVYBj98=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericInput
+ ComponentPropertiesFormPart$ListenerLabelProvider.class
+SHA1-Digest: fXrq2poOAnXO2uvXHjyCQeCLd7M=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ImageButtonProperti
+ esFormPart.class
+SHA1-Digest: 40AV3fH7OGp82qdoQhG0K8SGreg=
+
+Name: icons/obj16/html_file.gif
+SHA1-Digest: xLL6EsgKPJvn1d7KKkgwXYTk1Y4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateTextfiel
+ dAction.class
+SHA1-Digest: IKQ+BYofHb0TfferZRnpefU5/88=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$BinaryEntityMap.
+ class
+SHA1-Digest: GfaMUdEmw4WuiFR1Lj/MY+bHewA=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/JSPLinkPreferenceP
+ age.class
+SHA1-Digest: ZxVHpg9m68PTKR5hgkXltxkoVa8=
+
+Name: icons/elcl16/justifycenter.gif
+SHA1-Digest: fczFXKuqbW+RnAxojveH+aW5nUQ=
+
+Name: wd3/bindings/img/cdatasection.gif
+SHA1-Digest: XOj6GKt03S4vKzQwCTCF/FhMMrg=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsLink
+ WizardPage.class
+SHA1-Digest: h8zv6V3BU0vtN174f0oEi4D4xp4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ComboboxPropertiesF
+ ormPart$1.class
+SHA1-Digest: C7H7VOU1a+6hSpSRThPZ1AjXRF0=
+
+Name: wd3/templates/jsf/html/lock.gif
+SHA1-Digest: Hi9/UKwSBb+mdI+JqBC4fucVj+4=
+
+Name: wd3/bindings/selectOneListbox.xml
+SHA1-Digest: FKsUasxufGy07oFnxOwTLYOmSc4=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SynchronizationReconciler$
+ 3.class
+SHA1-Digest: II0oeF408/59I5Aaf8C3zzCezGs=
+
+Name: wd3/bindings/img/image.gif
+SHA1-Digest: L53lpS/zfRCtbPwTRuNDNc3QURs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateHiddenFieldWizard
+ Page.class
+SHA1-Digest: +37ctQudGAQr56mH6GeRo67LHSM=
+
+Name: com/genuitec/eclipse/webdesigner3/util/IntHashMap.class
+SHA1-Digest: WnnhgOrbNmnKKxvBKN/kxiOqgWA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/WizardUtil$1.class
+SHA1-Digest: nkotOcRUsIlzfZm6rNDOyyRHAUU=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/WebDesignerPrefere
+ nceInitializer.class
+SHA1-Digest: CcZnyR42ofXvyWc5ETac3rBIAwA=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateFormActi
+ on.class
+SHA1-Digest: crQBea/z3eD875NvnvrPCBzk4K8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateHiddenFieldWi
+ zardPage.class
+SHA1-Digest: 7War3gBmB0bM8I4ZeJfnVy+yKeI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericCompo
+ nentPropertiesFormPart$ParameterAdapter.class
+SHA1-Digest: dn/z1d8RfABjzfbfmDEwJ4E6mp4=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLComment.class
+SHA1-Digest: wTlnxd8cmiwCK/tzrdw0L1rS78s=
+
+Name: com/genuitec/eclipse/webdesigner3/action/UndoActionGroup.class
+SHA1-Digest: FVlp9EgnIV9yRkprz1aIZn2O+ac=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/OptionDialog$Modifi
+ cationListener.class
+SHA1-Digest: P6oS6uQa7jd4Kd+Mt5iBdOC2FEQ=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/jsf/CreateJSFF
+ ormAction.class
+SHA1-Digest: zcy66a1uI5TGZfjnjAHQ9bg3p5k=
+
+Name: wd3/bindings/img/anchor.gif
+SHA1-Digest: Hdfd8XYXkJEEjz3NVlijpMmUA2Y=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ComboboxPropertiesF
+ ormPart.class
+SHA1-Digest: a2K6+G4GWVChK625qa08bL+z8uI=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateTextAreaWizar
+ dPage.class
+SHA1-Digest: GjJgJmdgTjyZEH0wAmVJ32U+US0=
+
+Name: jp/aonir/fuzzyxml/sample/Console$AddNodeAction.class
+SHA1-Digest: +he8MPxjMC9HU8S3FySrJdKZX00=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$OutputTextConverter.class
+SHA1-Digest: papWDq+G7csG4Lpz9VTTq0o5Lkk=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesigner3$1.class
+SHA1-Digest: 8TIm14gR3nffFSIwWTlHQNc3yhE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateMenuWizardPag
+ e.class
+SHA1-Digest: unyqEoHCqZKecTBKgAsJDCgAhVI=
+
+Name: icons/elcl16/list.gif
+SHA1-Digest: BS+C0UfskkcQCZPyMLp8RqOhxp0=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/ContentTypeDrivenDropProce
+ ssor.class
+SHA1-Digest: 2+Xnx8/8skI2zH+7VsMbbHNzgB0=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$MapIntMap.class
+SHA1-Digest: Xv3a78+mQ7Ut6y1FKTfbFxo0sj4=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/WebDesignerPrefere
+ ncePage.class
+SHA1-Digest: hN11PDEdPIxRzuFxex+zzXk1oiA=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/IncludeConverter.class
+SHA1-Digest: ENxzjw9jmjmlUAR6A2Lh33Zlkic=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/ImageFileDropProcessor.cla
+ ss
+SHA1-Digest: d9/OMonJ1UHbbw8HDdFd/uHFK/g=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFCheckBoxGrou
+ pPropertiesFormPart.class
+SHA1-Digest: Uk/ho76PoEEBQ9aGI7RaY3J6x+k=
+
+Name: preferences.ini
+SHA1-Digest: MFNtFjUwJPnOMz79ezASEKVC334=
+
+Name: icons/dlcl16/textfield.gif
+SHA1-Digest: /W+wIEQx8c6ciiTcieSKlylNn+Q=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$ArrayEntityMap.c
+ lass
+SHA1-Digest: uBowoPBCgKVx7eOM0HfF5ZYbT0g=
+
+Name: wd3/bindings/image.xml
+SHA1-Digest: 69tjO3CrVWAE3UchyM6BselgMfY=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$11.class
+SHA1-Digest: fZ8Rhn2lzinyeQbLTT9kWHd0+pM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateFormWizardPage.cl
+ ass
+SHA1-Digest: n8HmQ431rNMEfqxwlnfS5StpPnk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $CheckboxControlManager.class
+SHA1-Digest: rFJccdm5xDZf8AhtRoez9qjUGdY=
+
+Name: com/genuitec/eclipse/webdesigner3/util/SWTUtil.class
+SHA1-Digest: gfKral2VB6XOJS0AiU26hxu7ShY=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/StrutsOptionsDia
+ log$OptionBean.class
+SHA1-Digest: T/DVqtTI7HOGxB7zm5CG1fvUxGs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemsEntry
+ .class
+SHA1-Digest: jgYcQwI4RkpSqwGQS7qSY+vfxCc=
+
+Name: jp/aonir/fuzzyxml/sample/ConsolePIDialog$2.class
+SHA1-Digest: jSK7FatWkTHhdk70dB4tNCy/NoA=
+
+Name: wd3/wd3.html
+SHA1-Digest: /ysePz2b+S+byXo8vwt5ua6OsUU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFHiddenFieldP
+ ropertiesFormPart.class
+SHA1-Digest: gUs6+O8aGxHq65VNOt51TAVUY1E=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/METextAreaConverte
+ r.class
+SHA1-Digest: kKiaNhUpqb6li78jUIbdVye2MFs=
+
+Name: com/genuitec/eclipse/webdesigner3/ISynchronizationListener.class
+SHA1-Digest: 8bvjaEf69EUhFMwmeSC+PJ1mWLw=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditor$Selection
+ TimerTask.class
+SHA1-Digest: W6J2TG1U5LoN8WhdooTXqJhBAu4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/AbstractWizard
+ Action.class
+SHA1-Digest: 9iOWnL75anllTqGiWJdOlybtJnE=
+
+Name: wd3/bindings/textarea.xml
+SHA1-Digest: 1h4mC9EJtGCRw2DSzYaz4WTYQsg=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/StrutsOptionsDia
+ log.class
+SHA1-Digest: wBMYaUMMtNcbBaST88bE53rnkt0=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFCheckboxProp
+ ertiesFormPart.class
+SHA1-Digest: 2crFqpvBtq1MZfv9nHDQvPsVCPQ=
+
+Name: jp/aonir/fuzzyxml/sample/Console$EditPIAction.class
+SHA1-Digest: qkbarCd0/GkjX6rLWYXbm1RzOX4=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerSelectAllAct
+ ion.class
+SHA1-Digest: Pb+GSIouo7tUVIezaKRXMvdUjZo=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateFormattedOutp
+ utWizard.class
+SHA1-Digest: 2MoXTzfI3FHSiOHYTdAFDAR20z0=
+
+Name: jp/aonir/fuzzyxml/sample/Console$AddAttrAction.class
+SHA1-Digest: yk23aCuPAKoFPnaCCsuNVgpxMrc=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaKeyListener.clas
+ s
+SHA1-Digest: BIUeCK6yDwxL/0sI2RD25JOfCWQ=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateMessagesWizar
+ d.class
+SHA1-Digest: wP4NXQ6dr2Ua/7D5fRxeyt0VWNQ=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsListAction.class
+SHA1-Digest: v1jSmikldRdJh/iWJQiqRtME7U8=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsMenuAction.class
+SHA1-Digest: DrghsykPEKU56iR3U+VaWvp/VDg=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/AbstractWebdesignerDropAct
+ ion$2.class
+SHA1-Digest: VmdWGPO/6vt+FAJd/kL+qr1fo3g=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFMultiselectM
+ enuPropertiesFormPart.class
+SHA1-Digest: 2LAcV/62Mwt9/ZYEUXVlHCPLuSM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/TablePropertiesForm
+ Part.class
+SHA1-Digest: 6Ym4RYoqthhKdLGxGxsouc0bc4Y=
+
+Name: wd3/bindings/inputs.xml
+SHA1-Digest: 6axp4F2UFseSnEnDesx212/mCT0=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$LookupEntityMap.
+ class
+SHA1-Digest: M8z4m9XIAQp3P1uyKGy6FD5rhuU=
+
+Name: icons/elcl16/password.gif
+SHA1-Digest: BvtPX59OIFXQUaPYnCZcz492TgU=
+
+Name: icons/wizban/CreateTextarea.gif
+SHA1-Digest: e63Cg++S25yO8aBhVqQlC04d0UU=
+
+Name: icons/wizban/CreatePanelGrid.gif
+SHA1-Digest: aU2Ocku8ubpTSYYQrY2Kzon7BuE=
+
+Name: icons/wizban/CreateButton.gif
+SHA1-Digest: z/4ylqszGaSxw1Emarnl6fJINaY=
+
+Name: icons/obj16/ie.jpg
+SHA1-Digest: mULISAL2k/n4DeoenMvMZv85MSA=
+
+Name: icons/elcl16/outdent.gif
+SHA1-Digest: e5Mmlcg6Pa0QS/e9CAR6hQzMn0c=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditor$1.class
+SHA1-Digest: H8/8PZyTBjPr6AI6W8SbxJ7VD18=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsMessageCo
+ nverter.class
+SHA1-Digest: +ctFBkqpi5e6+LOEALZ9+a0vzQU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ .class
+SHA1-Digest: oUjXinWEqDm5T0pFoBU3s3sUAr4=
+
+Name: jp/aonir/fuzzyxml/sample/Console$3.class
+SHA1-Digest: spwd2VAupK+DvcbOowWcCX0VaB8=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsPasswordAction.class
+SHA1-Digest: dgz4G5ljxmKqquQM5RwdD2ZDDjQ=
+
+Name: icons/elcl16/radio.gif
+SHA1-Digest: t86qnv90+QVHzKdT7hahsjZHshM=
+
+Name: icons/wizban/CreateMessages.gif
+SHA1-Digest: zN6TPlW6MTpLzmPcvJM/Knol3Dc=
+
+Name: icons/wizban/CreateDataTable.gif
+SHA1-Digest: xcQjcpLX1ugJGmq/o2/0hSQp6U8=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFCommandLinkP
+ ropertiesFormPart.class
+SHA1-Digest: wi+1X8CXcYk/PTJv09exsW3JdwY=
+
+Name: wd3/bindings/tagNameLabel.xml
+SHA1-Digest: eaq3A/c/rq0xnAhG2gz6RT7lRx4=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIColumn.class
+SHA1-Digest: 5Dy08LjMCd5+VAdCRgrG/SzbtHY=
+
+Name: jp/aonir/fuzzyxml/sample/Console$1.class
+SHA1-Digest: NpLCWFqWIvWeocctDdgaBpNBJSk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $ImageURLXMLStringManipulator.class
+SHA1-Digest: 4d9wk9Nv0Lh02fYo+iuDIA54UIM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateMessagesWizar
+ dPage.class
+SHA1-Digest: idIINnh/tSLbURk1CqidphR6jWE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateLabelWizardPa
+ ge.class
+SHA1-Digest: xk2wzL7Xpd8/oxW9Jn2CPE5AElA=
+
+Name: tk/eclipse/plugin/struts/StrutsHTMLCustomTagConverterContributer
+ .class
+SHA1-Digest: kzLNLi6vXlQFpKNhoSozQNtzM/k=
+
+Name: wd3/bindings/emptycontainer.xml
+SHA1-Digest: f4BUSTZABJ37QnA2ej1QTEUABHI=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData$Header.class
+SHA1-Digest: DDkRUlFLrMQnJq7vDdBEeNHC1fM=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsButtonAction.class
+SHA1-Digest: 29bQ/C4xh/qVgxehPA7+s1G7vgY=
+
+Name: icons/wizban/InsertAnchor.gif
+SHA1-Digest: +LmoHggkkKImJNcJx3KaXOAYrlo=
+
+Name: icons/elcl16/textcolor.gif
+SHA1-Digest: RxA+oRF8zI5YOvTHVPrU+KpnzlI=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceEditSystem$Selection
+ TimerTask.class
+SHA1-Digest: L068nSnJWzUgCHfvqguxkcmzfQk=
+
+Name: icons/dlcl16/anchor.gif
+SHA1-Digest: QRCxzEjDie4TpfUImSGtXRbCw+w=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaKeyListener$1.cl
+ ass
+SHA1-Digest: FPY5Me3Uub/6r1A+MHZT/t2m8pk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsImag
+ eButtonWizardPage.class
+SHA1-Digest: ED9G42/3rbt91r3ZpwrCZvxXKMs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreatePanelWizardPa
+ ge.class
+SHA1-Digest: S4mzXIzYQnuCACn0kcbJlXYK2ps=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateButtonAc
+ tion.class
+SHA1-Digest: y3CdVICkzni3J5ho5AiQfp+DTEM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFComboBoxProp
+ ertiesFormPart.class
+SHA1-Digest: r7lDs90VzqQAEls8VyBwt7pJgTU=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateImageWizardPa
+ ge.class
+SHA1-Digest: dbQr0MoQr9c16ouzfBGaGqG7dMI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $AlignmentComboManager.class
+SHA1-Digest: drTxEmOY6EkrGLEkTzoQlXUHoKw=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemsEntry
+ $1.class
+SHA1-Digest: Yxsn9UyrhJeRw+MB6okLktlw2vM=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLCDATAImpl.class
+SHA1-Digest: NxTu2E7BycKxFEJ+Cpmr58G4sEU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsButton
+ PropertiesFormPart.class
+SHA1-Digest: tZPi41yaNx/sDiFxGyusu6U5kOs=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/ToNothingConverter.cla
+ ss
+SHA1-Digest: fCrvh/ELw0utJPmyRiKUX2zOWp0=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$PrimitiveEntityM
+ ap.class
+SHA1-Digest: qZMufNuXxFO/sj6ZIdw1pu8AwMU=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$CheckboxC
+ onverter.class
+SHA1-Digest: AMH5Y8m7sdWcp9ARDVnOt05qBFI=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIPanel$Column.class
+SHA1-Digest: xH/XYnjIX230xbuDr6ycXOqUPqU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericCompo
+ nentPropertiesFormPart$ParameterLabelProvider.class
+SHA1-Digest: htPnTIPCmnA+UnH+y85Gow5tbtM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsCheckb
+ oxPropertiesFormPart.class
+SHA1-Digest: 5kOgNYEUE48c5YeedkEWWUqEkrs=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIColumn$BasicColumn.
+ class
+SHA1-Digest: SJJYJgRBdaWW9NO3G3wZuxelmuY=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/Webdesigner3ComboContr
+ ibutionItem$2.class
+SHA1-Digest: Tm8yTI+XF+otKmjmIAgBEJOkoIQ=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsMess
+ agesWizard.class
+SHA1-Digest: gQtcWeFfftoHql7QcdypyFXsWhk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFTextAreaProp
+ ertiesFormPart.class
+SHA1-Digest: D2tZdlKVcCBEkC3LJYA6rYklUQg=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateSelectionWizardPa
+ ge$NameValueLabelProvider.class
+SHA1-Digest: D4dqvhcdqAV9Vpqx3ocp+2BVylc=
+
+Name: wd3/bindings/jsf-core.xml
+SHA1-Digest: /v9WeQTTE2kxRBmOtw0F8n8ZNA4=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesigner3Plugin.class
+SHA1-Digest: Maf28rlJQRcXuQ3ttA13qGHsxvg=
+
+Name: com/genuitec/eclipse/webdesigner3/util/JSPDocumentTLDInfoUtil.cl
+ ass
+SHA1-Digest: 8lD068xHXmeNV/QelSVaO8m0Bsg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsHidden
+ FieldPropertiesFormPart.class
+SHA1-Digest: kvbYJUyb+gbAQgsYGXfW12i2UAc=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIColumn$Column.class
+SHA1-Digest: y4TKc9ws0rqoYRPGUO3S68YZleE=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$16.class
+SHA1-Digest: RkMtVT25d+IN6gLLjWAZeBkK61k=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/FormPropertiesFormP
+ art.class
+SHA1-Digest: GJam1KKq+PGocSE3YZmEms4uxNM=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceNodeAdapter.class
+SHA1-Digest: QwNdkl4KHCRClW3BgBSR3m/oyPE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsSelect
+ ionPropertiesFormPart.class
+SHA1-Digest: 4UF29nyqj/jPdCYrzPyGzXtnMvk=
+
+Name: jp/aonir/fuzzyxml/xpath/FuzzyXMLAttrIterator.class
+SHA1-Digest: 5WXWCsa3x6XKNK1f+hqOF5rPb4M=
+
+Name: wd3/bindings/oneRadio.xml
+SHA1-Digest: kpsa1yibNPonNetvbfJ/VnAO+3E=
+
+Name: wd3/bindings/manyCheckbox.xml
+SHA1-Digest: dJ/N/WOJzZiaWLCSbktyLB1Yyx4=
+
+Name: com/genuitec/eclipse/webdesigner3/action/CellPropertiesAction.cl
+ ass
+SHA1-Digest: or+CKZiETMJLslJbdpKRSKjrky8=
+
+Name: wd3/bindings/link.xml
+SHA1-Digest: CH5AxpCHUjT84hHpAd27/mdgZoA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CheckboxListDialogField
+ $1.class
+SHA1-Digest: 49DQxygnbZo9G7u2YLnvAI9g0Mk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFFormProperti
+ esFormPart.class
+SHA1-Digest: VxcIbY1ihdGKnZHk1XICYfoN0xg=
+
+Name: icons/wizban/InsertListSelection.gif
+SHA1-Digest: /MpPE6VXBth3/7SmV79bNiWVdI0=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateMessageWizard
+ Page.class
+SHA1-Digest: e3ikouxoNd2q6MiPmgxt7yBHg+E=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerCutAction.cl
+ ass
+SHA1-Digest: 2gQz11raEY/OzUuQNVD0TUjJpuU=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/DnDUtils.class
+SHA1-Digest: sObKXIw5CwYvbbQqr7+n+mff4UQ=
+
+Name: com/genuitec/eclipse/webdesigner3/action/RemoveBlockCommentActio
+ nJSPDelegate.class
+SHA1-Digest: oqO4IPcrcVACBSDCQZtWitLOK0c=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateLinkWizardPage.cl
+ ass
+SHA1-Digest: x37lnycZKzQSnALNWoHbGbb4OvU=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLAttributeImpl.class
+SHA1-Digest: s4vzFLAEzr3Fzbo3BT9lRq9Y6N0=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsImag
+ eWizard.class
+SHA1-Digest: JZ00Cg5bNK+IXvwZPM+YqD7xkAo=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/ExpressionConverter.cl
+ ass
+SHA1-Digest: GU6AT48RjkKAGVpU3mrU/BRIOps=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsMessag
+ esPropertiesFormPart$StrutsMessagesCheckboxControlManager.class
+SHA1-Digest: 6JxF665jZoOYWsIjZHLWCrpQbeg=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateTextFieldWiza
+ rdPage.class
+SHA1-Digest: og8smTTmUcfxDWpOou1dTw/i4dI=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIPanel$Header.class
+SHA1-Digest: QZVb3SFU7K8Ftyawb2xCMd2GVVY=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itorContributorJSP.class
+SHA1-Digest: 2WkoFHYH3K//lXX2ZgfNy7iZ9CI=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$18.class
+SHA1-Digest: 8nCbU9Xx7aE8UCiEionINWyRjgc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateTableWizard.class
+SHA1-Digest: 5EU3XrzVbx8DV7FyRhfNVi18a28=
+
+Name: icons/dlcl16/textarea.gif
+SHA1-Digest: B5rDvGVmI5bY3hcxOUFcz5nla3o=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/PaletteTextDragSource.clas
+ s
+SHA1-Digest: FqL9yT+90ljC7+3Rbs68VaN/cWk=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceEditSystem$Selection
+ TimerTask$1.class
+SHA1-Digest: a+omKp/1psBMYBR8I8JuFvhdmY8=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$2.class
+SHA1-Digest: Tc21TH4N0g7CO6bVhpHqmVUTDzI=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateGridPanelWiza
+ rd.class
+SHA1-Digest: xdnXAJAY8XRZ+EhUM0+P1LfHMm8=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/AbstractWebdesignerDropAct
+ ion$3.class
+SHA1-Digest: FVkskTPAGB8LprU7yP1R/f/ztO8=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$12.class
+SHA1-Digest: Sc3aCS1gHZxYwzWNxPEYQSdWZCQ=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/ListItem.class
+SHA1-Digest: qIOz18jqJZRhw9Eaj6aIcj3WMn8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/AddJsfControlWizard
+ .class
+SHA1-Digest: xlPbpSu3yJDTXxhZXmsct/zdm64=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/RemoveLinkActi
+ on.class
+SHA1-Digest: rZ4NZ21XQx0qCmI4m2Z6xM+gm3E=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsButt
+ onWizardPage.class
+SHA1-Digest: ebaDFlkTmh3xiuVuF2B5668ilLk=
+
+Name: com/genuitec/eclipse/webdesigner3/action/PasteAction.class
+SHA1-Digest: 5CuNFnEksjnF9EKLq9bm2+W/fYs=
+
+Name: icons/dlcl16/checkbox.gif
+SHA1-Digest: BVrnkV65AOr3U1K/x+o2hW6ndPA=
+
+Name: wd3/templates/jsf/html/commonimpl.vm
+SHA1-Digest: 2oB0qodSb8cpOL5PD/upJuLmUm0=
+
+Name: wd3/bindings/htmlbindings.css
+SHA1-Digest: IP9rB1RBySrc76s/V3y4kEyJE4E=
+
+Name: icons/dlcl16/link.gif
+SHA1-Digest: 3ftwvOACgKyoisHP3ScZaGb9/LY=
+
+Name: jp/aonir/fuzzyxml/sample/ConsolePIDialog.class
+SHA1-Digest: euw3HmBwk6KyhQJGwTyVD0E+QPo=
+
+Name: com/genuitec/eclipse/webdesigner3/action/InsertCellRightAction.c
+ lass
+SHA1-Digest: ezwjnu9F2ttuNSicgmzQjsAwUx4=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$2.class
+SHA1-Digest: idonc6XrlCzF1/JH6VWMbfYpS9Q=
+
+Name: jp/aonir/fuzzyxml/sample/ConsoleAttrDialog$1.class
+SHA1-Digest: moDcPf6e9m6fORuF4+5SZKPYuRE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/JSFParameterDialog.
+ class
+SHA1-Digest: rpCUZIfOM0RhT6TiPEvuHnIgDTI=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceEditSystem$2.class
+SHA1-Digest: cdabJGZSkb0+AbHd/59rNke+HSA=
+
+Name: jp/aonir/fuzzyxml/sample/ConsoleAttrDialog$2.class
+SHA1-Digest: gWExnE+FAw9wqKYqXCT5RxhbHCc=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/MEOutputLabelConve
+ rter.class
+SHA1-Digest: xC4iXGZsk6a5snWvBhTCNYK5kHA=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/HiddenFieldProperti
+ esFormPart.class
+SHA1-Digest: 3k7dJDF7MyiccgatxUWCau3+Rw8=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebDesignerProperty
+ SheetPage.class
+SHA1-Digest: guExwaAmJ6gaQ5Z2EGFg3DmxZag=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLDocumentImpl.class
+SHA1-Digest: CUa+xkkK6NCzn3IA9FdHimoDcaw=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsHTMLCusto
+ mTagConverterContributer.class
+SHA1-Digest: b95cWDr3CRoAlKRD0dXtJjN86rE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericSelec
+ tionComponentPropertiesFormPart$ListAdapter.class
+SHA1-Digest: RleFRHGREkZTjtXJivqf/0Pv+K0=
+
+Name: wd3/bindings/jsp-bindings.css
+SHA1-Digest: grstOZ1aaivkrfxUXyUc2q4hBgk=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsImageConv
+ erter.class
+SHA1-Digest: Itsh8CjKpjkvCdeGX+iT20Ts4n0=
+
+Name: com/genuitec/eclipse/webdesigner3/util/DOMUtil.class
+SHA1-Digest: jbHqKCxHBdhARb6WKY9xtycTCKw=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItems.clas
+ s
+SHA1-Digest: 07/T6lE/087fHno9coTL/XmZ2vM=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$2$1.class
+SHA1-Digest: 4bE4ohlQA/KARby0M5oHF246pEo=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsErrors
+ PropertiesFormPart.class
+SHA1-Digest: EOU9jICvt4PkGlcyq/BhJyUkLe8=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/TLDFileDropProcessor.class
+SHA1-Digest: cXrUDEWn4fzBga+z4//raOFXF3g=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateHiddenFieldWizard
+ .class
+SHA1-Digest: zPiJO8WKKwhk5HiTnCf/r8KBC1Q=
+
+Name: com/genuitec/eclipse/webdesigner3/src/WebDesignerStructuredTextE
+ ditor.class
+SHA1-Digest: 6PPMz9wlcwmIDoIsRGFKyCUWIWI=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/ScriptFileDropProcessor.cl
+ ass
+SHA1-Digest: CsAeEzsFzJfoJQKvUnuE/7lisqs=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLProcessingInstructionImpl.cla
+ ss
+SHA1-Digest: S3hoC5eBd8xuRmzcMrBcHE4+UGM=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateTextarea
+ Action.class
+SHA1-Digest: 6usbtgy4oGrA2FzXmP84wOLmUJE=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/IDraggableAction.class
+SHA1-Digest: GZi9LRs3VmAw+Gq+DiE4NOve9l0=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/WebDesignerPaletteView
+ erProvider.class
+SHA1-Digest: 7xgGeWXYF4l3YCkv4OZbTX9WoC8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateImageButtonWizard
+ .class
+SHA1-Digest: Z5fv7QC11PxL3v3mVTDosRtgyR0=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreatePasswordWizar
+ d.class
+SHA1-Digest: UIl6z2jA3YI65T5mcb2HZ8BtYXY=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $ControlValidator.class
+SHA1-Digest: glvUxvUfKr6aHzEBqhxdD1Hudd4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateListSele
+ ctionAction.class
+SHA1-Digest: pt5m7alpqvPPoDLuXX/wuWxGAeE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFImagePropert
+ iesFormPart.class
+SHA1-Digest: NaR5pptWXHfwnrxVUFoBpAJgWh4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$1.class
+SHA1-Digest: VeNP7DPRgcTg3MXHk9hO38Y39cQ=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFLocalizableTagC
+ onverter.class
+SHA1-Digest: VJF6Nf+VWHJbLHF9Dl/OC/6+Yks=
+
+Name: wd3/bindings/selectOneMenu.xml
+SHA1-Digest: 1gMGbjvA5E5aOfPH/rV649BHk3Y=
+
+Name: com/genuitec/eclipse/webdesigner3/util/StringEscapeUtils.class
+SHA1-Digest: D4FP8fYABGNYJYBuRoO/54tRsIw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $TextControlManager.class
+SHA1-Digest: EskW9u2fddoo0uEDMvbSpy/bzJI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFDataTablePro
+ pertiesFormPart$ParameterLabelProvider.class
+SHA1-Digest: oFHjWE72io/SCS3anJVY+DcPcXc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateHiddenFieldWi
+ zard.class
+SHA1-Digest: ooZ26mCcmk440/TkAXNZ9RF9zGE=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/adapters/SSE2FuzzyNode
+ Adapter.class
+SHA1-Digest: sWZP3DzrMLq5Pk8I6KZFfcO6ifg=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLText.class
+SHA1-Digest: uQZdsioAgTgAsMsju1pnBxX4aIk=
+
+Name: icons/wizban/CreateHiddenField.gif
+SHA1-Digest: 3h9PqvUuXufNrCiVt+8h21nAM0U=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFButtonProper
+ tiesFormPart.class
+SHA1-Digest: gWthOzmPNxJK9ShYQFhwA8fKVfg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsFormPr
+ opertiesFormPart.class
+SHA1-Digest: fsFkCEwsKDwcjB238e5UtdRQZdQ=
+
+Name: icons/wizban/InsertLink.gif
+SHA1-Digest: gmYUGDAlqG3rx0jQC8tWWJnlUPc=
+
+Name: icons/dlcl16/errors.gif
+SHA1-Digest: w5bMFt2cTCtHPOuXlmzuXoA0+rU=
+
+Name: jp/aonir/fuzzyxml/xpath/FuzzyXMLNodePointerFactory.class
+SHA1-Digest: tXko/TZBwcc28terigdlZ0a6fvA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/JSFWizardUtil.class
+SHA1-Digest: 1SZ8lo9XK6qSySxDzMNtMkx5Ixs=
+
+Name: com/genuitec/eclipse/webdesigner3/action/SaveAction.class
+SHA1-Digest: d/1569ULWyMh+IiCX98BDuXF0vg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFDataTablePro
+ pertiesFormPart$BooleanControlManager.class
+SHA1-Digest: Qa76kkMNsAaTKOUDt6O5ptA4y2U=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$2.class
+SHA1-Digest: VS1m8EXOBpwzReZ+1Ucgq1SYhpc=
+
+Name: com/genuitec/eclipse/webdesigner3/action/CopyAction.class
+SHA1-Digest: uIBa2PXkRvyPlXHSM/+FIohy04o=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itorContributorHTML.class
+SHA1-Digest: y3yxJwVxNfN6Nq7aQYNC/m9Z6E8=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $URLStringManipulator.class
+SHA1-Digest: cF8DAibA2W8KyyRbTUDdDrS+KOU=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsButt
+ onWizard.class
+SHA1-Digest: TbwrH9aT/57nkUrlpv+ad4vAM9Y=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/PaletteActionTransfer.clas
+ s
+SHA1-Digest: SXnrZ7yM4TJ54lSrgIQ3CBMeU84=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$CheckboxConverter.class
+SHA1-Digest: hJQW/x0r4UMPDEMe0+eYsEMkYX8=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIPanel$Grid.class
+SHA1-Digest: S07IBqLxTpppu6HESgGB87joJbM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsErro
+ rsWizard.class
+SHA1-Digest: 1TeYNi2o3sqzgUJHDBoqBYgr4jQ=
+
+Name: com/genuitec/eclipse/webdesigner3/src/JSPSourcePageActionContrib
+ utor.class
+SHA1-Digest: TEczfrOhD00Qaxad/3pQ9tI7HGI=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIPanel.class
+SHA1-Digest: bDy+0GtB0URZDuIIc8ji71N/3l4=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateTextFieldWiza
+ rd.class
+SHA1-Digest: F4s/NljzoZ7ubEOtoSy4x7hMRKs=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/EditorActionProxy.clas
+ s
+SHA1-Digest: Qr2NdTpSABvEF8OWaxay0IyqjJ8=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/FontSizeComboContribut
+ ionItem.class
+SHA1-Digest: lgtx0ucO727u1dCwY69+MGLPlsI=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLParser$AttrInfo.class
+SHA1-Digest: mlUQjkOqcN7vjiBm/JK9guVIMeQ=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/AnchorPropertiesFor
+ mPart.class
+SHA1-Digest: f55bszDtNhLiPXd2eAW7T3uppts=
+
+Name: wd3/bindings/img/struts.gif
+SHA1-Digest: 3aRtvbEwD25ZmwsSKPSI7PTzOMM=
+
+Name: icons/elcl16/indent.gif
+SHA1-Digest: ctQTIfY8z0XMZNDtVDqIj/CvDFI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$ButtonL
+ istener.class
+SHA1-Digest: NX+xkdeF1kNI7unjcNP1uXottSE=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DOMNodeInsertedEvent.cl
+ ass
+SHA1-Digest: r9VOngKBmcxffaJGvXUXazzaZdA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsLink
+ Wizard.class
+SHA1-Digest: Q3MLRbNdH3XN66ieKgAYkYE68YU=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/PreviewUtils.class
+SHA1-Digest: 3OtWLhr3uUWVeduNWOixxb4mrEI=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesigner3IDs.class
+SHA1-Digest: wfLamUtbnFkrkFFn8O86k4OwegU=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$DesignMu
+ tationTestLogListener.class
+SHA1-Digest: GcZvlxEbjHh+dZm4GPNdQ+vvFFw=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsErrorsAction.class
+SHA1-Digest: W7NpiTx0cjmGIjeGSn3hIiLnpRg=
+
+Name: wd3/bindings/styles.css
+SHA1-Digest: BLDWuZULpj+5RQ0mSfOjbEBufvo=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateImageBut
+ tonAction.class
+SHA1-Digest: 2M0cQtsqRQC83cCKek/Vpsux6kQ=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFMessagePrope
+ rtiesFormPart.class
+SHA1-Digest: j1abzFD9pmUCTC2UdgvqhB5EWgQ=
+
+Name: wd3/bindings/button.xml
+SHA1-Digest: Bzq2FTV1Pdu/eUnrlVHEQuhSNCE=
+
+Name: jp/aonir/fuzzyxml/event/FuzzyXMLModifyEvent.class
+SHA1-Digest: NEHnLUBgo+9pkjF7aHteR1jC+Zg=
+
+Name: icons/elcl16/image.gif
+SHA1-Digest: L53lpS/zfRCtbPwTRuNDNc3QURs=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFPasswordProp
+ ertiesFormPart.class
+SHA1-Digest: 98tT/MqFGCJxN3WV9bB6c8Q7YCk=
+
+Name: tk/eclipse/plugin/htmleditor/HTMLUtil.class
+SHA1-Digest: BBxlrU0xdrqyY6nKsO3cUXsuwWw=
+
+Name: icons/elcl16/bgcolor.gif
+SHA1-Digest: bNqC+KLSHNNKrtk6O432aeqcExs=
+
+Name: com/genuitec/eclipse/webdesigner3/src/WebSourceFileEditor.class
+SHA1-Digest: 2c6wbiTZyLD29qU/c23TZtEusWQ=
+
+Name: com/genuitec/eclipse/webdesigner3/AbstractEditSystem.class
+SHA1-Digest: MVguXNrboXRjLgmpF1zbaA2fQr0=
+
+Name: com/genuitec/eclipse/webdesigner3/DOMCoordinator.class
+SHA1-Digest: mAbvjiFpNiRnCr+Qog0joTr47+0=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsAnch
+ orWizard.class
+SHA1-Digest: Xnitzv3wdqxrOglu1N0RP2LKv+o=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateFormWizard.class
+SHA1-Digest: ilpCKqVJ8gWUBv63XKDQib0PXlU=
+
+Name: wd3/bindings/unsupported-bindings.css
+SHA1-Digest: h8YDjQ0oeGXi7n4hPK8qHZP+XaQ=
+
+Name: icons/obj16/ff.jpg
+SHA1-Digest: AbQ/CiHvK6qv/dH/HJcrX/Ueq/g=
+
+Name: wd3/bindings/htmlhidden.xml
+SHA1-Digest: LY7EAIWiMss6qRMUQ5oEaIux8d8=
+
+Name: com/genuitec/eclipse/webdesigner3/action/ToggleCommentActionJSPD
+ elegate.class
+SHA1-Digest: WgiPFXG/i4Ut3UxSVfoiaJNCFm0=
+
+Name: com/genuitec/eclipse/webdesigner3/DOMCoordinatorUtils.class
+SHA1-Digest: XakwclNGlkk+TpPx39St6FFbdT8=
+
+Name: icons/elcl16/hidden.gif
+SHA1-Digest: rRWNHPN2X4g24jQ3t+WB8qkrSm0=
+
+Name: wd3/bindings/graphicImage.xml
+SHA1-Digest: 5H1z4DzYphGmksJePgN9GU+oq8k=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIColumn$Header.class
+SHA1-Digest: oNbF6cYoNMyb2UUyZE0+hExP8cs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/InputComponentAdvan
+ cedWizardPage.class
+SHA1-Digest: UtSvRs2FDOoyYMd+CK2BUbt3j6Y=
+
+Name: com/genuitec/eclipse/webdesigner3/action/EnablingAction.class
+SHA1-Digest: J9hf5/4NGBTwTIg1MZiS/DkTw4g=
+
+Name: icons/dlcl16/rule.gif
+SHA1-Digest: VVQDFTIZ2GnbzmWuS+4IlCLjrdk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateLabelWizard.c
+ lass
+SHA1-Digest: q6CLZFb12xUF74ixAG66Rqdb0oo=
+
+Name: wd3/bindings/img/hiddenfield.gif
+SHA1-Digest: y5cbrSdNVhUAfrc2tId4WgESFeY=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$17.class
+SHA1-Digest: 7tRg26p5Ay5BWmRJgUP8zACBULQ=
+
+Name: icons/wizban/CreatePassword.gif
+SHA1-Digest: ZOYyKD8PHovmN7qFQiTN/ePuI1c=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/TextfieldProperties
+ FormPart.class
+SHA1-Digest: SJA/iKoz9r/kiX0HD4SnnXTfQ8w=
+
+Name: wd3/templates/VM_global_library.vm
+SHA1-Digest: cYU8YZemp/Ii2w8ZeMfLIyuHxe4=
+
+Name: tk/eclipse/plugin/jsf/Util.class
+SHA1-Digest: KSKNdAlzLbk0lQic1Bu5wFIpvPI=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateTableWizardPage.c
+ lass
+SHA1-Digest: kx8AfLFULG1xE3IqB4Mm+7k8o8w=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/AddJsfInputControlW
+ izard.class
+SHA1-Digest: /iffbHxIL6v/OcAYW0IEJeBgar4=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsText
+ fieldWizardPage.class
+SHA1-Digest: VkjxPh212aLBnwOODlSRUf9tW2c=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/FontFaceComboContribut
+ ionItem.class
+SHA1-Digest: s8Peh1+9QTQ54Ce2HUzs5hkLMpw=
+
+Name: jp/aonir/fuzzyxml/sample/Console$4.class
+SHA1-Digest: WP5qM5mFUKF2/ICEKiF6242aZRU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$Checkbo
+ xAdapter.class
+SHA1-Digest: UbYuBR34CnCyco8fDulQGMwIEUc=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIColumn$Data.class
+SHA1-Digest: UzfwiUrlm//f3LoVBehf+YHJKhY=
+
+Name: wd3/bindings/text.xml
+SHA1-Digest: nUn15WSdXfR3c6FOvki0D3wkufo=
+
+Name: tk/eclipse/plugin/htmleditor/HTMLPlugin.class
+SHA1-Digest: 2naSsr5gazIDsztmTaHuclri0fc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCommandLinkWi
+ zardPage.class
+SHA1-Digest: w/Jlb/uBZC1E65wDT9rIhhxz7eI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFListBoxPrope
+ rtiesFormPart.class
+SHA1-Digest: 3nnH4IaBx/pU+nR9cCMK+qQaqao=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/ParagraphFormatComboCo
+ ntributionItem.class
+SHA1-Digest: m3h4aQIqKsb0qjNhABpDWZhL+1A=
+
+Name: com/genuitec/eclipse/webdesigner3/action/AbstractSourceDelegatin
+ gAction.class
+SHA1-Digest: cau6Q6agUpf/dtl08XbWCG4DD48=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditor$EventLoop
+ .class
+SHA1-Digest: fbxGOGeJCYVxKsRB9vxl6bIkOKg=
+
+Name: wd3/bindings/containerbase.xml
+SHA1-Digest: YMKWoivatna1b55ch9ORCccj138=
+
+Name: wd3/bindings/jsf-html.xml
+SHA1-Digest: 6AwJme/2/A9vRe2CoVQt/qRfUvw=
+
+Name: icons/dlcl16/button.gif
+SHA1-Digest: tliuZ0FdLv4ZtNPlvPtM9ctpHaM=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLAttribute.class
+SHA1-Digest: 6k/yyTGThCgKT1aLP9YdvTthhAw=
+
+Name: jp/aonir/fuzzyxml/event/FuzzyXMLErrorListener.class
+SHA1-Digest: fkAiT5I6t4NNnI4w4aAOej73TKY=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/JSFParameterDialog$
+ 1.class
+SHA1-Digest: bUHMbR4xeVgNqiqgYTebcSRV+JU=
+
+Name: icons/elcl16/justifyright.gif
+SHA1-Digest: p0/kN2Sl309SBl9UNfjbBtBxOMc=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $TargetComboManager.class
+SHA1-Digest: tyrlX2T9PEuc5Jlpgy0c7wuNUCI=
+
+Name: wd3/bindings/img/hidden.gif
+SHA1-Digest: rRWNHPN2X4g24jQ3t+WB8qkrSm0=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsLinkAction.class
+SHA1-Digest: oDw2TETm70Ae3yqKLpArfgM8Qv0=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$10.class
+SHA1-Digest: nUqwrjibpiWQRFr9TV1Cj+MWS94=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsSelectCon
+ verter.class
+SHA1-Digest: oWnrC5Ki7CsqKC2t0WvMfINYcMo=
+
+Name: jp/aonir/fuzzyxml/XPath.class
+SHA1-Digest: QtQzMnwZVaVpqTdAc0mf3Qf0Rec=
+
+Name: com/genuitec/eclipse/webdesigner3/src/ISourceEditorListener.clas
+ s
+SHA1-Digest: P37LE0uOSifn6rRji1PIqjdxBaw=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsForm
+ WizardPage.class
+SHA1-Digest: vq+E1lG+vVuOwjb9YEB0lQ5/aRA=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerProperty
+ Sheet$1.class
+SHA1-Digest: HBXEWgVOqRqczj2au6sMmuWrZlg=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsComponent
+ Converter.class
+SHA1-Digest: cbzPxJJ8Y4gMK3p5z6jU4hSx1ME=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/ParametersWizardPag
+ e.class
+SHA1-Digest: AAFBAOZM1cgbc8+VqbTJ2zdQwd8=
+
+Name: com/genuitec/eclipse/webdesigner3/messages.properties
+SHA1-Digest: qRMowOWWMrCS15BlBN4e/Jy+0oc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateAnchorWizardPage.
+ class
+SHA1-Digest: JWTJsLAciri9K8RjjsQnMJeCQmI=
+
+Name: com/genuitec/eclipse/webdesigner3/util/ModelOperation.class
+SHA1-Digest: Jb/JFUzKRgMspjVlbvtUIjkhNZk=
+
+Name: com/genuitec/eclipse/webdesigner3/src/ISourceNodeAdapterDelegate
+ .class
+SHA1-Digest: RA0VpSecWBSxsUjX2cqLFWYLxW8=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsOptionCon
+ verter.class
+SHA1-Digest: C2i1/Vnr94+CO3d4m6ltr2CE2iE=
+
+Name: com/genuitec/eclipse/webdesigner3/action/DeleteRowsAction.class
+SHA1-Digest: nsAzxSjQ9jBeYyQ5V+DbTpCCagg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsLinkPr
+ opertiesFormpart.class
+SHA1-Digest: 7lcDtoED2my9z5v71C/C5e/7I0g=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditorContentFil
+ ter.class
+SHA1-Digest: dlwqiOjJVG+27FewOSIQIVZsdtc=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/TextareaPropertiesF
+ ormPart.class
+SHA1-Digest: XUzPgDzLobMgR/Ts+0hThjaykos=
+
+Name: wd3/bindings/imagebutton.xml
+SHA1-Digest: N47rz99MJH1PwLcaAPahCFYxrAs=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesigner3.class
+SHA1-Digest: dY8Ir2eQ7jrt3X21STW4gOdoFZ4=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/RefreshSyncAction$1.cl
+ ass
+SHA1-Digest: f+tLpYKbgfgtCB/oknxkI/EBQbE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreatePasswordWizar
+ dPage.class
+SHA1-Digest: LVnJ/qMq/WKiGxHT7tz3y82swho=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditor.class
+SHA1-Digest: J6Bh2D1DCiqYhGv+RmIY2QAGnc8=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$DataTable
+ Converter.class
+SHA1-Digest: NXEY5gbA8pE6O9FbFiAPkpX+Pyo=
+
+Name: wd3/bindings/img/proinst.gif
+SHA1-Digest: HvOqE8jFjkmtznTtuo0jg9JivOc=
+
+Name: com/genuitec/eclipse/webdesigner3/action/TableActionGroup.class
+SHA1-Digest: N7p1QI87A+MKzvtRpHXImg8FDrc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateComboBoxWizar
+ dPage.class
+SHA1-Digest: ww9Vf+OnJttfUt6ZRro2S0X+t9s=
+
+Name: com/genuitec/eclipse/webdesigner3/design/MozillaEditorCommands.c
+ lass
+SHA1-Digest: Fv0Amnp8HO5PawZ/5MYW65wqwD8=
+
+Name: icons/elcl16/table.gif
+SHA1-Digest: S2gm1RMq++z2dOMkj5E65oTY0N8=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLNode.class
+SHA1-Digest: /f9NBSAIw2A5DcIwwoRoJFgTs8k=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ComboboxPropertiesF
+ ormPart$2.class
+SHA1-Digest: vE12s3G4ToRTAuVpdXHCRJGVazE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateComboSelectionWiz
+ ard.class
+SHA1-Digest: S4vAH0DgIV1kGeXMkW+lB0NpboA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsList
+ Wizard.class
+SHA1-Digest: YYLEysZeFa3Xvie3+oDDohpehiE=
+
+Name: jp/aonir/fuzzyxml/sample/Console$2.class
+SHA1-Digest: qK9D/6bT3tsYMA77E+1dGOx7bJk=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/WebDesignerJSPInfo.cla
+ ss
+SHA1-Digest: a7tAcd2dKAzvm03FjMOEj1FOcD4=
+
+Name: wd3/bindings/inputHidden.xml
+SHA1-Digest: B+nrFP2BETAFwL0RIXO18/9UdN4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsImgAction.class
+SHA1-Digest: 439HDUXgT3giBHpogOIQWlW035w=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsImageB
+ uttonPropertiesFormPart.class
+SHA1-Digest: odnqRi6vt7LKl8NN6lU3ts67IhM=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$3.class
+SHA1-Digest: HLw/3V3v9tJDM9DTetAsTTl3baQ=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$SourceEditorPropertyListener.class
+SHA1-Digest: DX06MrwjTPlWzI0nTJMBAJ7FABw=
+
+Name: icons/elcl16/combo.gif
+SHA1-Digest: NBreg6GOApyakRPSo7tKRkGMC8w=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$SelectCon
+ verter.class
+SHA1-Digest: Ep6EkeUvjurB04Z57lCWSrUiFwI=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer.class
+SHA1-Digest: ecXZTMCs3VyS+4d8yL/X9CDdg90=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/OptionDialog.class
+SHA1-Digest: PKWgn+YUwOfxg46o2gWA32G/Yo8=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsHiddenFieldAction.class
+SHA1-Digest: YfoCBX7Czofujz+n+wBcM9F2Pl0=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/EmbeddedToolfolderMana
+ ger$1.class
+SHA1-Digest: 0XAD8G2vrs4doil04FZMQO2PAyA=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$5.class
+SHA1-Digest: f3oPZiW0eMkpXXR7LCrlO0SlwsY=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCheckboxWizar
+ d.class
+SHA1-Digest: 11n4qEIfwmbHJDTEcQQjH+q20og=
+
+Name: jp/aonir/fuzzyxml/resources/Messages.class
+SHA1-Digest: bPuRsRRxUsc4gXcHKFt/mAhnS5Y=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFImageConverter.
+ class
+SHA1-Digest: jPDBgDr5NlBMEzh+qSoF9vcNKUU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsTextPr
+ opertiesFormPart.class
+SHA1-Digest: pMKi/iJwO7Ap/Dk7QK0N0fr8Enw=
+
+Name: com/genuitec/eclipse/webdesigner3/action/FileActionGroup.class
+SHA1-Digest: 4GBIPRQYGbTfpHIO56CZ486cSGI=
+
+Name: jp/aonir/fuzzyxml/event/FuzzyXMLModifyListener.class
+SHA1-Digest: tgH34ehESZEs8Q2IYb+9JJxNNTM=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/CSSFileDropProcessor.class
+SHA1-Digest: wOpmGSuUg0BvbnyjmAU0cydxQtY=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/FileDropAction.class
+SHA1-Digest: STHjjEjyIqQSt4JQ55oTNmhKGx4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/WebdesignerPalettePref
+ erences.class
+SHA1-Digest: pp7XUFCg/5GZJscFYoD0Ra4xYUs=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData$Footer.class
+SHA1-Digest: 6i3ViwJ8NtutV9MpJBkdOBaphnM=
+
+Name: wd3/bindings/img/hiddenbg.gif
+SHA1-Digest: 3aRtvbEwD25ZmwsSKPSI7PTzOMM=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateCheckbox
+ Action.class
+SHA1-Digest: IbWiQuRNAgtI+xuWQh28M3bf8g8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/StrutsOptionsDia
+ log$OptionsCollectionBean.class
+SHA1-Digest: Fd+XRdWNruZWvFbyyY7sY+UbJLw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/PasswordfieldProper
+ tiesFormPart.class
+SHA1-Digest: W/ElTX3in1p2L0elFXA3sLXO+sM=
+
+Name: jp/aonir/fuzzyxml/sample/Console$InsertBeforeAction.class
+SHA1-Digest: GtSc8YomQbSYEKXZ4TE+XYnAORI=
+
+Name: com/genuitec/eclipse/webdesigner3/action/MozillaEditorActionGrou
+ p.class
+SHA1-Digest: V84EJ4fhe/AkjWoHCyCReTw1IZU=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsWriteConv
+ erter.class
+SHA1-Digest: WRgTb5xwtEOjq5UYSZ81VJ1AO+E=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$InputDateConverter.class
+SHA1-Digest: s3B0ySNxQDzSp6T6NEqYDAQ7mc4=
+
+Name: com/genuitec/eclipse/webdesigner3/design/IDesignEditorListener.c
+ lass
+SHA1-Digest: eJY9oQ/jwVntgtbR+p35dU/b4SI=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/PaletteActionDropAction.cl
+ ass
+SHA1-Digest: DjFGpEDecUHeXdNJpuukV2/o7x8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCheckBoxGroup
+ Wizard.class
+SHA1-Digest: VbYacdIoBSGVgyV4EQonMZ9Rb2E=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsHidd
+ enFieldWizardPage.class
+SHA1-Digest: c/SATUz+dgm/Tifs8LSmqGhlQq8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItem.class
+SHA1-Digest: eKEUGpJjErBB0+tCCzQLPTTq5u0=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DesignEditSystem$2.clas
+ s
+SHA1-Digest: J36tvaonJ4toi3rfrRhydKNWBc8=
+
+Name: icons/wizban/CreateLabel.gif
+SHA1-Digest: p4PdbIeWJblBcDuKszEG6ea6Qhg=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsText
+ areaWizard.class
+SHA1-Digest: /F6kBkyPcztG4J1SFRey2kKdJDk=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/PaletteActionDragSource.cl
+ ass
+SHA1-Digest: FhbaoqwKgXeX+hpqsz9nmpud52A=
+
+Name: wd3/bindings/unsupported.xml
+SHA1-Digest: rc/OvJTKzj8/wBnS70nCtJTy/dk=
+
+Name: wd3/bindings/commandButton.xml
+SHA1-Digest: TZu3ftIgokcNTK7qZ/zRMCQwkYA=
+
+Name: com/genuitec/eclipse/webdesigner3/action/CCPActionGroup.class
+SHA1-Digest: VAAq4O83fKPbs6VPmFhqeX3OOBM=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/AlwaysNeverFieldEd
+ itor$1.class
+SHA1-Digest: ovBwypW2lGU31NzpZZKIVBmgtAM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFDataTablePro
+ pertiesFormPart$ParameterAdapter.class
+SHA1-Digest: 9Yg1VFUVvIgP9ycKcDAWNJu1+2Q=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemEntry.
+ class
+SHA1-Digest: lByBSmWiporX1LsdkBOx0JMTZgQ=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/MEJSFConverter.cla
+ ss
+SHA1-Digest: 5ZLXCVXl1H3Wn5ME5bjGb+YnCsQ=
+
+Name: com/genuitec/eclipse/webdesigner3/IWebdesigner3Preferences.class
+SHA1-Digest: 1zu3QGMNZQ0ObApEpHl4nI5mpqk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFRadiobuttonG
+ roupPropertiesFormPart.class
+SHA1-Digest: lPqwZ7OZgLtTz9D/nyCKMflzIAU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$Adapter
+ .class
+SHA1-Digest: mBZmAeNk7771mCHglUjWqCvdWGI=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/IWizardAction.class
+SHA1-Digest: ippGC4SEAO2tZLih8Cq/rVyha8o=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsCheckboxAction.class
+SHA1-Digest: 53zrJJ2asufW7YuCgoO5JTTLIk0=
+
+Name: jp/aonir/fuzzyxml/sample/Console$CustomTreeSelectionModel.class
+SHA1-Digest: /oUpyjYlZlV9jHjYPExwOMfJZD4=
+
+Name: icons/wizban/CreateTextareaPass.gif
+SHA1-Digest: ScRGa6MwePpiVMIp0atJcSrWTJY=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsAnchorAction.class
+SHA1-Digest: pnac6UgOgwNebVJ6+npurmt69zk=
+
+Name: icons/jsp_file.gif
+SHA1-Digest: Sh1C12zO5+VDElr7HkB/gjywiqk=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/PanelGridBinding.clas
+ s
+SHA1-Digest: eJzMv/c5nWMRUTwPT1H4T4ibIi4=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/IResourceDropProcessor.cla
+ ss
+SHA1-Digest: yRFc/GCQ/rn090YNmDKA24Co0C0=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLDocTypeImpl.class
+SHA1-Digest: i8rH2ShAWmiyp5GASp9BYqo1b+w=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFImagePropert
+ iesFormPart$UrlControlManager.class
+SHA1-Digest: ouJn7uTjcu2o9Z9P4EbVpI87mH4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsLinkPr
+ opertiesFormpart$1.class
+SHA1-Digest: 0NnvYiBERdNXgZV5/9D7QDylAt0=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$EntityMap.class
+SHA1-Digest: 8Vpm90GOXB7Tju7llwvvmbSNDIk=
+
+Name: com/genuitec/eclipse/webdesigner3/ContentTypeIdForXHTML.class
+SHA1-Digest: KzYNKVZVPxmSVvlftRCr/6nHhJw=
+
+Name: icons/dlcl16/image.gif
+SHA1-Digest: K4mYLR9h2ysOhRfzVilGNz4LLP8=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/PropertiesUtil.clas
+ s
+SHA1-Digest: O9zbXvV9d0c7aPHWTik6het8ZzQ=
+
+Name: icons/elcl16/datagrid.gif
+SHA1-Digest: Pz/Ltz5LLC5aP3h9+s0/XGAMFyI=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericInput
+ ComponentPropertiesFormPart$ValueChangeListenerAdapter.class
+SHA1-Digest: k/SiFnEmU/KCW+3f2Ug0ab7DSi0=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateListboxWizard
+ Page.class
+SHA1-Digest: 2Zhoe2Z8BHMl3Kw/tp6+32JHXVg=
+
+Name: com/genuitec/eclipse/webdesigner3/action/MozillaEditorAction.cla
+ ss
+SHA1-Digest: wbQ5JMVwIJh8SpMjpsOEn5aIVt0=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateComboSel
+ ectionAction.class
+SHA1-Digest: 97C8LWMW6w5yad8MT1fycsYd7d0=
+
+Name: com/genuitec/eclipse/webdesigner3/preferences/AlwaysNeverFieldEd
+ itor.class
+SHA1-Digest: /sCwfVVjmBVq5i2L7dzqoEYrMsQ=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericSelec
+ tionComponentPropertiesFormPart.class
+SHA1-Digest: 5Dx7NrX1qQRQbMBrEHy03F5zHAU=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateFormWizard.cl
+ ass
+SHA1-Digest: yOZjrAKg3brz0/Sb8ZxrXCWjM9o=
+
+Name: com/genuitec/eclipse/webdesigner3/src/HTMLSourcePageActionContri
+ butor.class
+SHA1-Digest: XMFxnPlKC7t6p4l0OayV2OAic3M=
+
+Name: tk/eclipse/plugin/jspeditor/converters/HTMLConverter.class
+SHA1-Digest: PwO7S/n0ZDa8Mxp3pF/pQcJYXq4=
+
+Name: com/genuitec/eclipse/webdesigner3/WebDesignerImages.class
+SHA1-Digest: YVFdgmRIlDcoZ2zjnK2H03D4+pk=
+
+Name: wd3/bindings/selectManyListbox.xml
+SHA1-Digest: iQUYHO7e+7Sm5EMhSjnTDb2U69g=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateOutputTextWiz
+ ardPage.class
+SHA1-Digest: YC1LAeQ8mvKm2EW+TswTJT/06Qs=
+
+Name: wd3/bindings/hidden.xml
+SHA1-Digest: z5DymtY+X5hO2xvneCEDzDP0t6w=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateRadioButtonGr
+ oupWizardPage.class
+SHA1-Digest: 6frfGm+zg7XZb3rkqo0tRc7pExo=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$DataTableConverter.class
+SHA1-Digest: 2CvvGSsQJ0tGPkAT3XgZs49CSyY=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateListboxWizard
+ .class
+SHA1-Digest: ald/U1FPA2d3cZbiJALbv4/4SZE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ListPropertiesFormP
+ art.class
+SHA1-Digest: LtLD+NDNU6kWtVclteKviyhOJ1o=
+
+Name: tk/eclipse/plugin/jspeditor/converters/AbstractCustomTagConverte
+ r.class
+SHA1-Digest: eFzoxY7RI8idrrgFFSyRY5qzoSM=
+
+Name: jp/aonir/fuzzyxml/sample/Console$6.class
+SHA1-Digest: dGorA4Y5t90i73Ai0C0JU4q+L8g=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/IElementEditor.clas
+ s
+SHA1-Digest: alJKy9eJrT5hTdozdX6EOhPZpbs=
+
+Name: wd3/bindings/blocklabel.xml
+SHA1-Digest: BML8ZG0G2CRb/fAX2X4P+A0vbhI=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateGridPanelWiza
+ rdPage.class
+SHA1-Digest: iS/n9YRZkTdFxBTD5Q7FweQrDdM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsText
+ areaWizardPage.class
+SHA1-Digest: SYSI/ZS35d2WtJzCaowRJkJQz6g=
+
+Name: tk/eclipse/plugin/htmleditor/HTMLUtil$1.class
+SHA1-Digest: 7ZuiCNhpOIk/I7n0sb/OM4+FL7c=
+
+Name: wd3/bindings/inlinelabel.xml
+SHA1-Digest: SLKcS9J+SFXn3RdReYRkkwnIWMk=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$DesignSe
+ lectionTestLogListener.class
+SHA1-Digest: 6TrAts2Ty/y4cXjRHUP0BHbXGZ4=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$8.class
+SHA1-Digest: YPjp7ADJ41pQSkxbh859q38MuIk=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericInput
+ ComponentPropertiesFormPart.class
+SHA1-Digest: yElsLmCMyA3mmGRtzn5F0Sc6XC4=
+
+Name: wd3/bindings/simple.xml
+SHA1-Digest: YOcNeM3TuyMby6ltFYVarhlRSe8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateRadioButtonWizard
+ Page.class
+SHA1-Digest: EG+a3KQYOXbbF6u2mQC/yGU1Gv0=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsConverter
+ Utils.class
+SHA1-Digest: idrlhHhLnAh13u4fhlIg7CPM3J4=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerDeleteAction
+ .class
+SHA1-Digest: doH+ULOiGRyp7kzAnCATa6eb5hk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateFormattedOutp
+ utWizardPage.class
+SHA1-Digest: oCSFtmQLHy5EFoCj/61u+F3kPKw=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/Webdesigner3ComboContr
+ ibutionItem$3.class
+SHA1-Digest: IHfPkvgwSUz0BTIAtZGfy71ebm0=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateFormWizardPag
+ e.class
+SHA1-Digest: Shufu8A20g99lKIRf0Veym36vmo=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLParser.class
+SHA1-Digest: z0b+WNAEH7lZEbdGl6YZ5HKMecc=
+
+Name: icons/wizban/InsertImage.gif
+SHA1-Digest: HRRtrVO0EcyWt2NW9vRJcEOA/QA=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLDocument.class
+SHA1-Digest: YtGTdfvxbZ2vldXR6OO/s3jKqU8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateImageWizard.c
+ lass
+SHA1-Digest: m8zOr60yQsJjlk7YW4HcuqQXAIM=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsRadioAction.class
+SHA1-Digest: 0xD5NwB3bl1T/knMSFt1UkLmty0=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateRadioBut
+ tonAction.class
+SHA1-Digest: ZupshLldFSA/O/x809MoQPX32Iw=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$SetDesig
+ nSelectionJob.class
+SHA1-Digest: Ij8dD0iWI1j8Z/JG4hyGfPwtN2U=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFTextFieldPro
+ pertiesFormPart.class
+SHA1-Digest: Vpo1m0qFQ/5RH0Vfj3kfSnUCcF4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/PaletteHelper.class
+SHA1-Digest: jAdOazDatqByHwl10416wbewD6M=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsAnch
+ orWizardPage.class
+SHA1-Digest: vrJNhaCpAQXoWx4LGFXty04awAM=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLTextImpl.class
+SHA1-Digest: OJzRqMcwgCnybWUVu68I127o3f4=
+
+Name: wd3/bindings/booleanCheckbox.xml
+SHA1-Digest: BCfxE5vSH/hG8z4hJNpnOfsT7jY=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData.class
+SHA1-Digest: mHkSNy/F4Th3OvMf8byWe27lLDg=
+
+Name: wd3/bindings/struts-html-bindings.css
+SHA1-Digest: G7bnrfoHuW/BUK6+zoiB/qk1yaE=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLElementImpl.class
+SHA1-Digest: i2UGU9EK+Qgf3Z9/Ty3V5shonv4=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/RefreshSyncAction.clas
+ s
+SHA1-Digest: p2HspX50aY6MzfTFekkTVhtEqHY=
+
+Name: jp/aonir/fuzzyxml/sample/ConsoleNodeDialog.class
+SHA1-Digest: vJ76R3Gxx3WxQjzqzdm3xw9434I=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/PaletteHtmlDragSource.clas
+ s
+SHA1-Digest: tcdzDtvr4Kh4JPRS895VhiXmWRE=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$CommandLinkConverter.class
+SHA1-Digest: Vtzm4rH1/nJVxDXV/0D6wOhgcpU=
+
+Name: icons/elcl16/panel.gif
+SHA1-Digest: X2mPP80fnX4WMqOy7ekXQ68vkAE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/CheckboxPropertiesF
+ ormPart.class
+SHA1-Digest: oi9nSPdDobfuYNEb9sqLtS7j3r0=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DOMNodeRemovedEvent.cla
+ ss
+SHA1-Digest: biP3Hf7PBss3gircxs4gX2Bujrs=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$InputCalendarConverter.class
+SHA1-Digest: tCDAHhWseVgQZStQ8QdGhUWVeDU=
+
+Name: wd3/bindings/img/select.gif
+SHA1-Digest: 4Cf9AmDMI9QtB+DNECuzjVeyHJU=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DOMTextChangedEvent.cla
+ ss
+SHA1-Digest: wLs1m87RM8ehgC8ChjjyH9xp/4Y=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsImageButt
+ onConverter.class
+SHA1-Digest: /Ll164gTSKVcg/pnItI/UTE8/O8=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFPanelPropert
+ iesFormPart.class
+SHA1-Digest: Vvu0FAo/VkU9O1Z9uHyFx4ZADb4=
+
+Name: com/genuitec/eclipse/webdesigner3/design/ISelectionListener.clas
+ s
+SHA1-Digest: VIuGSVzKI4VZdL0meqaRM4zkTzw=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$9.class
+SHA1-Digest: 0JZ/IniMLSmDe/g+9u7El0PfOWE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemDialog
+ $RadioListener.class
+SHA1-Digest: Vb/1RfqZiVUF14VHGUkgYYEeWbY=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$6.class
+SHA1-Digest: u6FH1GsvJB1Ln6qXM0JzumCCTM0=
+
+Name: jp/aonir/fuzzyxml/resources/message.properties
+SHA1-Digest: x8lHzmPjvRKQn5WlHVUdHwh11Hc=
+
+Name: tk/eclipse/plugin/htmleditor/ICustomTagConverter.class
+SHA1-Digest: rTewgOEt9mz/tzBn99dSR3u0FF8=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/MEJSPPreviewConverter.
+ class
+SHA1-Digest: sJOaqv2XX7uaF0Rp/fh+hUXXM90=
+
+Name: wd3/bindings/directionTable.xml
+SHA1-Digest: Sw17kovZaU+28185KZ5ubx6/loU=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerEditorAction
+ .class
+SHA1-Digest: 2PCVbBGLTtu9NeU/+vF3K55aHWQ=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIPanel$Footer.class
+SHA1-Digest: WZKCp+z5xy9xSI60x23YU45YBS4=
+
+Name: wd3/templates/jsf/html/datatable.vm
+SHA1-Digest: 5jZ31F9+FTm/BYtba+gk9KrLBOo=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLCommentImpl.class
+SHA1-Digest: XE9oE6FjAx6IkCg7m1joXo7bCYc=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/Webdesigner3ComboContr
+ ibutionItem.class
+SHA1-Digest: UxRHEfhI2UKDvtrVNG9MlzbEr8Q=
+
+Name: com/genuitec/eclipse/webdesigner3/util/XPCOMUtil.class
+SHA1-Digest: dmUv1aeclcUTYMqC0dmFzKGtaY4=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateListSelectionWiza
+ rd.class
+SHA1-Digest: Jieg9HIRxMfp7hQVohoCpEbSN3Q=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsSelect
+ ionPropertiesFormPart$ModeRadioControlManagerManipulator.class
+SHA1-Digest: 1deQqm8HwXkKXWpn4Lh9yYXuWRo=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemEntry$
+ 2.class
+SHA1-Digest: SvShkB10VpiXZm6IAbFCFdHsS5Q=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData$DataRow.class
+SHA1-Digest: ptIu1esd5K9+DUM2NKlBp34Cbcc=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/ColumnBinding.class
+SHA1-Digest: pdqiqpZj5rCiP9GOyQqlQ8TyBpI=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SynchronizationReconciler.
+ class
+SHA1-Digest: p8r6ZuBmvYciBZeH6d6P21xt3Uw=
+
+Name: wd3/bindings/suppress.xml
+SHA1-Digest: Iac5P+CdsVa1kV8Drfhh0pasBag=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/InputComponentPrope
+ rtiesWizardPage.class
+SHA1-Digest: REiU/peoRpJk5t25DmNpbga/Ggo=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/EmbeddedToolfolderMana
+ ger$SelectionListener.class
+SHA1-Digest: GiL2nUGexwXcbY4Akc5t/XW0/FM=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLCDATA.class
+SHA1-Digest: xwwKhO3/o+6yAY4JUV+4JHYosXI=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor.class
+SHA1-Digest: suiJjichesiVtENEmthnRxnzw5A=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateTableAct
+ ion.class
+SHA1-Digest: oo6kTXj0dh2xzddqZq6UEzZ2u2M=
+
+Name: icons/obj16/xhtml_file.gif
+SHA1-Digest: xLL6EsgKPJvn1d7KKkgwXYTk1Y4=
+
+Name: com/genuitec/eclipse/webdesigner3/action/InsertCellLeftAction.cl
+ ass
+SHA1-Digest: FSmzy1+Ibk3mBEFPNa0q3h1Tyuw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFMultiListBox
+ PropertiesFormPart.class
+SHA1-Digest: KX+gaa7qLNvdyveZGk2JAwptyhU=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/ParametersWizardPag
+ e$ParameterLabelProvider.class
+SHA1-Digest: NFJoULh4wIKjM+anxljhvglN6nA=
+
+Name: jp/aonir/fuzzyxml/sample/Console$SampleErrorListener.class
+SHA1-Digest: NYQUpJ2JniQu749Bcu6dbHQp6V4=
+
+Name: wd3/bindings/jsp.xml
+SHA1-Digest: VcxvSPEyshqDqiReSZlV/41bazs=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsImageButtonAction.class
+SHA1-Digest: othjraqJgOrmOqEmnNL6PzFTPGY=
+
+Name: icons/dlcl16/checkboxgroup.gif
+SHA1-Digest: KNLcYVaneesPK0RqfZMMiBDQPek=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsButtonCon
+ verter.class
+SHA1-Digest: nB51+9npZcR1tDq/tll4WPecPss=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$14.class
+SHA1-Digest: CftKHM9GI9HcJVb7aUz+5GZ5Xg0=
+
+Name: tk/eclipse/plugin/jspeditor/converters/NullConverter.class
+SHA1-Digest: GmDn9WuxYl7iHlmiey2edRCjS6w=
+
+Name: jp/aonir/fuzzyxml/sample/Console$8.class
+SHA1-Digest: qGCFK9MWo33h1k0wuzhC4EeqRs4=
+
+Name: icons/wizban/CreateErrors.gif
+SHA1-Digest: oTrRXGObd3j31WBB7Vhh5JcheW4=
+
+Name: com/genuitec/eclipse/webdesigner3/action/TableEditorAction.class
+SHA1-Digest: hUKmk7r+kPrD/n+i7S8b9hDqdRw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/LinkPropertiesFormP
+ art.class
+SHA1-Digest: R9Wpo2lqLumqETCW+eGGsDMmbYQ=
+
+Name: jp/aonir/fuzzyxml/sample/Console$CustomTextArea.class
+SHA1-Digest: E83UtfDptmHhK9inrTSF2CyTh20=
+
+Name: icons/wizban/CreateRadioButtonGroup.gif
+SHA1-Digest: MD0xXCWgzxR1oNm/xyLHG0lUxfc=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/FormPartFactory.cla
+ ss
+SHA1-Digest: Dagn8ONoYtf+GFQ5TcVWX+1u5cE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ButtonPropertiesFor
+ mPart.class
+SHA1-Digest: 5tLlcqDL4lXydqwtjMtAHV/Fx2g=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$15.class
+SHA1-Digest: 5kVj+VFfeodK16j64bsNWa75nzQ=
+
+Name: com/genuitec/eclipse/webdesigner3/action/InsertRowBelowAction.cl
+ ass
+SHA1-Digest: TzFt09X6Sk/f4ZYSN1z+deE7CMg=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateAnchorAc
+ tion.class
+SHA1-Digest: slx063GejFUM7rYBQXZ8wJLCX8o=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$InputCale
+ ndarConverter.class
+SHA1-Digest: D9k9rSunsSnVrjK2SlkKgHmR7ao=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/DynamicElementBinding
+ .class
+SHA1-Digest: 005KQaHZgLEyKhkAhgl/RtZggL4=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsFormAction.class
+SHA1-Digest: 1g8BySfMHqTSoPAU3//XvVp9Ty4=
+
+Name: wd3/bindings/htmlselect.xml
+SHA1-Digest: KVxXlY0EP0OHgD7hn9XMg7nAzHM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateComboBoxWizar
+ d.class
+SHA1-Digest: 5MEfPLEK8I90JbiPfSvx4iVGWUQ=
+
+Name: icons/elcl16/messages.gif
+SHA1-Digest: +2O6rBqLBfs430DhiF2AcZsxPcs=
+
+Name: icons/elcl16/unlink.gif
+SHA1-Digest: JewTbam0kxlygRBLDK7bLkHqS9I=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/JSPStandartTagConverte
+ rContributer.class
+SHA1-Digest: NiH3EB8FGgwCatPzIIuQawl22K8=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCommandLinkWi
+ zard.class
+SHA1-Digest: qkjU7Z0QUjt56gphTopIP+H6bCU=
+
+Name: com/genuitec/eclipse/webdesigner3/action/DeleteCellsAction.class
+SHA1-Digest: /G3foMj3ZxK3C3Ybi493HS/j3q4=
+
+Name: jp/aonir/fuzzyxml/sample/ConsolePIDialog$1.class
+SHA1-Digest: oLIlpwpO95H07V+Km1qdfGvK3bg=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/IncludeConverter$1.cla
+ ss
+SHA1-Digest: xTwaY0HnNzBMlC4wk9q6REgkIAI=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/JSFElementBinding.cla
+ ss
+SHA1-Digest: nyLz98u8w8RqICaSeTqfzB5xj7I=
+
+Name: com/genuitec/eclipse/webdesigner3/design/IClickListener.class
+SHA1-Digest: Gi6RCNIYzetleLGhEVf57bKi/j4=
+
+Name: wd3/bindings/outputLabel.xml
+SHA1-Digest: fGTDmpBEnuNeQn0zNCvt6r/6ZmQ=
+
+Name: com/genuitec/eclipse/webdesigner3/util/IntHashMap$Entry.class
+SHA1-Digest: gpnLPfcV0o5uwti03dxUoIcjMUs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateMenuWizard.cl
+ ass
+SHA1-Digest: si51DB2bf1fCjoRCSfDlgfr+lAs=
+
+Name: jp/aonir/fuzzyxml/sample/Console$EditAttrAction.class
+SHA1-Digest: Y3+6jtB7bIqmnrl1Qh1XPqEdhFU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsSelect
+ ionPropertiesFormPart$1.class
+SHA1-Digest: /ph9E7W+q6RCCE/C398ZZ2cpRwY=
+
+Name: jp/aonir/fuzzyxml/internal/FuzzyXMLUtil.class
+SHA1-Digest: VBXpbbqoa+ZxfRooWrLTYNFUuCo=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateLinkActi
+ on.class
+SHA1-Digest: vjOPNB0PYxBUcLu0Be8c1OAYjF4=
+
+Name: icons/wizban/CreateCheckbox.gif
+SHA1-Digest: 6rWUZkXbYvGRZNCxf1jDL12QERw=
+
+Name: jp/aonir/fuzzyxml/sample/ConsoleAttrDialog.class
+SHA1-Digest: ZAKrczVcQFgRQH+raj4zuo7v7Ug=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $XMLStringComboManipulator.class
+SHA1-Digest: O0AoVg0ewllEVMfzs1trW7FKabo=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DesignEditSystem$1.clas
+ s
+SHA1-Digest: CjmuDW6bRPOnxy5FV5vtVfDGjwY=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIColumn$Footer.class
+SHA1-Digest: fDH5z5e8h6CYpW8oROpw8avW274=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$OutputTex
+ tConverter.class
+SHA1-Digest: 1crZB218Tp3TNyIj7nCr24KYrXU=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceEditSystem.class
+SHA1-Digest: 0zj+5n/j/t98bhnSxjnYc0ajBLo=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerPasteAction.
+ class
+SHA1-Digest: xqV9wOJAYs869ks7o2rF6zkBzWc=
+
+Name: jp/aonir/fuzzyxml/sample/SpringUtilities.class
+SHA1-Digest: u59Rre0BBDhbVJjmAsHATefV5RU=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreatePassword
+ Action.class
+SHA1-Digest: drY80Vf9NRskqFSfoGJ3k5hlxj8=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$SetSourc
+ eSelectionJob.class
+SHA1-Digest: P47wshcKv7pAyxpYxZDf3uzK1Ag=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/CommandAction.class
+SHA1-Digest: TKDb0eEtx4LYak4JqHXmUHUBRmM=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$HashEntityMap.cl
+ ass
+SHA1-Digest: 0ms60uX40Xp3Pw1ZZ8IZYq9nPxI=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateLinkWizard.cl
+ ass
+SHA1-Digest: L8Nti2C/cZzCiG+fZQ8mJHiGGOg=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsLinkPr
+ opertiesFormpart$LinkTypeComboPartControlManager.class
+SHA1-Digest: roZFifghH53qdYvW/u6Fo52k7K8=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLElement.class
+SHA1-Digest: 9QoxqmWCd/Q2wSn+TeZPAdrbTRo=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerCopyAction.c
+ lass
+SHA1-Digest: 7R2MtLWKOKRS/jxuicdkvFioxLo=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsRadioP
+ ropertiesFormPart.class
+SHA1-Digest: JRttygi44e0z8/MhZIEmWTDLwZ4=
+
+Name: wd3/bindings/jsfinput.xml
+SHA1-Digest: rh8ISUSGkQil0vDTVrGr3pjxyIw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$3.class
+SHA1-Digest: qKx1693wdGuUNGUhtpWsLo94mNE=
+
+Name: tk/eclipse/plugin/jspeditor/editors/JSPInfo.class
+SHA1-Digest: Ur9jPJcBE3HkflHeKduhkAIetIE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsLinkPr
+ opertiesFormpart$LinkURLStringManipulator.class
+SHA1-Digest: Cq/rlrppFTWx/+zIijV6WrgMiMw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFHyperlinkPro
+ pertiesFormPart.class
+SHA1-Digest: 7nOfxFD00NckCezR1x63Wv7kp0w=
+
+Name: wd3/bindings/base.xml
+SHA1-Digest: jN6oGVNRMrEqk18u8QtgpV7q9h4=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateSelectionWizardPa
+ ge.class
+SHA1-Digest: oa4nqXrlI07yLHEZdtEcwOFpdzU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList$4.class
+SHA1-Digest: QbqKmJh+4juElPSiHDRTbccYDbo=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/GenericPropertiesFo
+ rmPart.class
+SHA1-Digest: oNSK0eIIaOUOlmABLFTIOl241po=
+
+Name: wd3/bindings/htmlinput.xml
+SHA1-Digest: vXK9l4RFto4cB+lwf0I5SFYcorY=
+
+Name: jp/aonir/fuzzyxml/sample/ConsoleNodeDialog$1.class
+SHA1-Digest: HL7XjzJr0hUBDjWb+ldOitzSAGw=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/EmbeddedToolfolderMana
+ ger.class
+SHA1-Digest: qRi5Ydgia/eag6bG5q+vSvn4c/I=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateButtonWizardPage.
+ class
+SHA1-Digest: 1KFm36TtJXxz/5L58XvYtK+B6kM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateRadioButtonWizard
+ .class
+SHA1-Digest: Tm7FfYYD8D97EkLj8SnxfZRISCc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateLinkWizardPag
+ e.class
+SHA1-Digest: HgOWneDeHxV975cJUITtr3v90/Q=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SynchronizationReconciler$
+ 1.class
+SHA1-Digest: mg2TpVSRfQjkDlpyuV6V40uCOnE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateTextfieldWizard.c
+ lass
+SHA1-Digest: Zera1c6SNBt/e5xFPjjA7k1SCLk=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/struts/CreateS
+ trutsMessagesAction.class
+SHA1-Digest: AUioSX77w+CdKV1CUjcJXsvtsYo=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerDelegateActi
+ on$1.class
+SHA1-Digest: +xTYxo6bUC8o1Pid0pOFT1K8WZE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/ComboConstants.class
+SHA1-Digest: 5DBrciivAP8540OE74c39K77R0w=
+
+Name: icons/elcl16/imagebutton.gif
+SHA1-Digest: nU8CIeeuYKJgo67Hjlrje/udU2Q=
+
+Name: com/genuitec/eclipse/webdesigner3/action/TablePropertiesAction.c
+ lass
+SHA1-Digest: am0HWRhP+Lj2KdCSpLC9KSm3pOQ=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIPanel$Row.class
+SHA1-Digest: GD9SI0PkT+hFYCGty6vqav2f288=
+
+Name: jp/aonir/fuzzyxml/event/FuzzyXMLErrorEvent.class
+SHA1-Digest: XWtHIObMdy/maan2wJ7eXSfM1+I=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/ColorAction.class
+SHA1-Digest: 1ZhczjqE8UfXcLMSge+ObPzk564=
+
+Name: icons/elcl16/unsync.gif
+SHA1-Digest: rO9qdiDVc6zl4Eg6HYZuIol/oO0=
+
+Name: icons/obj16/jsp_file.gif
+SHA1-Digest: Sh1C12zO5+VDElr7HkB/gjywiqk=
+
+Name: wd3/templates/jsf/html/column.vm
+SHA1-Digest: I7vSzk7H8r5exnA/dr/bXovzREY=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/LinkPropertiesFormP
+ art$1.class
+SHA1-Digest: 4wn27pEvcy3ZRiVQm7y7y9QhLs0=
+
+Name: jp/aonir/fuzzyxml/sample/Console$5.class
+SHA1-Digest: 0GWgw9zr9zX6bPEWjPzqwlrAo8Y=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsTextar
+ eaPropertiesFormPart.class
+SHA1-Digest: 8qWrmOhghe8cAiI1BAmLqaTwLEs=
+
+Name: com/genuitec/eclipse/webdesigner3/src/SourceEditSystem$StyledTex
+ tHelper.class
+SHA1-Digest: vyDPYyN15oNLBtylEeQXts1Uz7M=
+
+Name: com/genuitec/eclipse/webdesigner3/action/ContributionsActionGrou
+ p.class
+SHA1-Digest: ryYMayI1CzAbv+MuNT80lc7REY4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $ComboPartControlManager.class
+SHA1-Digest: BtYe1UIfc+JqsqO4RccmPKOqGXw=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLDocType.class
+SHA1-Digest: i7IQPLnsjgL8oVAk216lrExX8Cw=
+
+Name: icons/dlcl16/label.gif
+SHA1-Digest: f2aDa4rNSFIN2+BHBef0MApdvCQ=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/adapters/SSE2FuzzyElem
+ entAdapter.class
+SHA1-Digest: iqwFXlPpIFWDXMn60ydhWVLhqH8=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/jsf/JSFElement
+ Actions.class
+SHA1-Digest: aTzBVpzumr1GjEfe7CjZJFi/2N0=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ListPropertiesFormP
+ art$1.class
+SHA1-Digest: vWhyNqEBh/LwSlTsjrp49ZSq8wY=
+
+Name: icons/elcl16/anchor.gif
+SHA1-Digest: Hdfd8XYXkJEEjz3NVlijpMmUA2Y=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFCustomTagConver
+ terContributer$SelectConverter.class
+SHA1-Digest: OsvLSjGIg7ys+qioD0FghrjjvzM=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/CreateHiddenFi
+ eldAction.class
+SHA1-Digest: rXTUi3snMyvmn1ptJ9qQNYaKMdw=
+
+Name: icons/wizban/CreateTable.gif
+SHA1-Digest: aU2Ocku8ubpTSYYQrY2Kzon7BuE=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities.class
+SHA1-Digest: y4v/IhofB9RwNcLSFrwD91EJ1cY=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/FormPropertiesPage.
+ class
+SHA1-Digest: JTkCTmr9DoL/OeooBImKUwMd85o=
+
+Name: wd3/bindings/jsf-html-bindings.css
+SHA1-Digest: VWE7EYDawKitIG2blPrZ3o5vlCk=
+
+Name: wd3/templates/jsf/html/panelgrid.vm
+SHA1-Digest: AlUa5VI5WrWj0/TX/dA1Wfl9oEM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFButtonProper
+ tiesFormPart$1.class
+SHA1-Digest: RVonhxjsv2Hfp+yEZ6wFV7ofgVE=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsTranslata
+ bleElementConverter.class
+SHA1-Digest: AXfnMmV0v+NMjZgau/QqM1nn/OM=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsMessag
+ esPropertiesFormPart.class
+SHA1-Digest: evxbIvsJH+qZ1Kh1H+ztsz51qIM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateRadioButtonGr
+ oupWizard.class
+SHA1-Digest: bE6MssCJpUgaEkUX0KG/J6xc7LQ=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/struts/StrutsTagConver
+ ter.class
+SHA1-Digest: vyBSwfNwujgawIdDoTFJIO7dWWs=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$1.class
+SHA1-Digest: RYdRhynqDoBSDyGlIlZ3A8ffUmY=
+
+Name: com/genuitec/eclipse/webdesigner3/design/EditorDOMMutationAdapte
+ r.class
+SHA1-Digest: YgscSA1T0CUrMeQHreSDGpvRflE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/InsertImageWizard.class
+SHA1-Digest: WSkFilQQtyXCCdwlJ235x7SHH+Y=
+
+Name: icons/elcl16/checkboxgroup.gif
+SHA1-Digest: 3C9ACUCHPl/xoUaa93DNEf8JCMo=
+
+Name: jp/aonir/fuzzyxml/sample/ConsoleNodeDialog$2.class
+SHA1-Digest: xqyLQIMnhvJzynL0Iao3iB5v/gY=
+
+Name: wd3/bindings/jsf-core-bindings.css
+SHA1-Digest: FvYxcNsR7sf6ogt9K9JhR1GYWUQ=
+
+Name: icons/elcl16/italic.gif
+SHA1-Digest: 9bJRCJH81XrpwqD/hGXIkoQI2Yw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/CellPropertiesFormP
+ art.class
+SHA1-Digest: Lhqz+DP2ZyN+t8+fPtS4o8gk4s0=
+
+Name: com/genuitec/eclipse/webdesigner3/DOMCoordinator$Range.class
+SHA1-Digest: AhEZLYfZmTAcDGnSk6jNdrf7v3A=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$4.class
+SHA1-Digest: xSl9v4HRXWFC25hNXwApyIrRqbU=
+
+Name: com/genuitec/eclipse/webdesigner3/design/EditActionAdapter.class
+SHA1-Digest: QqkKIcp1w0H1TTlty7B7w+3Z9tI=
+
+Name: icons/wizban/CreateLabel1.gif
+SHA1-Digest: aU2Ocku8ubpTSYYQrY2Kzon7BuE=
+
+Name: icons/dlcl16/messages.gif
+SHA1-Digest: xbMUBULsYRZ0IAbYFI2tHVuyp6M=
+
+Name: com/genuitec/eclipse/webdesigner3/util/Entities$TreeEntityMap.cl
+ ass
+SHA1-Digest: JeK2Urazvb/Rmwl91u/DoYO/dVU=
+
+Name: jp/aonir/fuzzyxml/FuzzyXMLParser$TagInfo.class
+SHA1-Digest: 5+5PXKicFwjXmmWrmGwUvgsCFgs=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFImagePropert
+ iesFormPart$1.class
+SHA1-Digest: u1NEcBFlo2WWdokjvcx7oQ3suF8=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$DesignMu
+ tationJob.class
+SHA1-Digest: 5ICv9AXJwHqwoI/y57c3Gi/hTXk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreatePanelWizard.c
+ lass
+SHA1-Digest: u0c8aL4HAu/Qlrjg1iiiLQ2vwdE=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericCompo
+ nentPropertiesFormPart.class
+SHA1-Digest: qh4lCfu8i5QZjYcPBjgJX42k/t8=
+
+Name: icons/dlcl16/unlink.gif
+SHA1-Digest: +0k89EdbBYldJbcovLjYPoQuWgA=
+
+Name: jp/aonir/fuzzyxml/sample/Console$7.class
+SHA1-Digest: rVL0NYgEtBhp8lTgSwsRQRU6o3c=
+
+Name: jp/aonir/fuzzyxml/sample/sample.xml
+SHA1-Digest: nY3fETyWyTbquo5V6p/X60Jt6Ig=
+
+Name: jp/aonir/fuzzyxml/internal/AbstractFuzzyXMLNode.class
+SHA1-Digest: y+nMkWlamFOcZURP34U8xKcg4c8=
+
+Name: plugin.xml
+SHA1-Digest: Vn5DNBG1dl7fzL9kgdpZIFuNKx4=
+
+Name: jp/aonir/fuzzyxml/xpath/FuzzyXMLNodePointer.class
+SHA1-Digest: gsONkq1j7oVovx0MzXyr0ilnHVA=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesignerTests$3.class
+SHA1-Digest: /og7DDsMx/vZw8J1mcYE81W9NR0=
+
+Name: jp/aonir/fuzzyxml/sample/Console$RemoveAction.class
+SHA1-Digest: cWVxDtWHV7IMAWo2sZEbSdl7BfA=
+
+Name: com/genuitec/eclipse/webdesigner3/action/AbstractSourceDelegatin
+ gAction$1.class
+SHA1-Digest: X//ZQn5+TSCLyscUNwVZBbbsQJM=
+
+Name: icons/wizban/CreateRadio.gif
+SHA1-Digest: uj6siVeStFIWsEPRrOu8q8acTTA=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/StrutsWizardPage
+ .class
+SHA1-Digest: GNOGA7SQTfwXQt18FMmBuykbwLw=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$7.class
+SHA1-Digest: HR5ZAnIUhhBOWiG4BXkkUfMGPt4=
+
+Name: wd3/bindings/htmlbutton.xml
+SHA1-Digest: I8MPlnsyH18EyRW+KLyPCTWvScU=
+
+Name: icons/elcl16/textarea.gif
+SHA1-Digest: fXNB5BHH3tMrAlkyHezhWRpfElw=
+
+Name: com/genuitec/eclipse/webdesigner3/toolbar/ChangeZoomComboItem.cl
+ ass
+SHA1-Digest: f52XuKTAgfzqZoKmURCtSqqtc7Y=
+
+Name: com/genuitec/eclipse/webdesigner3/action/DeleteAction.class
+SHA1-Digest: tUJ/ilvRZ3NfCH2QeI7PJdRgBNY=
+
+Name: com/genuitec/eclipse/webdesigner3/action/WebDesignerDelegateActi
+ on.class
+SHA1-Digest: LCRp4g9kwnWFss8rRiSqsJqqiDk=
+
+Name: icons/elcl16/label.gif
+SHA1-Digest: M7UDT0MlXIwFlsrQko7lHyYukLI=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateDataGridWizar
+ d.class
+SHA1-Digest: QikRadl1lJSI5B7UYclzgxiaB7k=
+
+Name: tk/eclipse/plugin/jsf/JSFCustomTagConverterContributer$CommandLi
+ nkConverter.class
+SHA1-Digest: GPC4SXsaOpuMVy5ANzzI0FWW+TM=
+
+Name: icons/elcl16/textfield.gif
+SHA1-Digest: Ip4UPF0I3jvHZmoFn9sOvySwB5k=
+
+Name: icons/html_file.gif
+SHA1-Digest: xLL6EsgKPJvn1d7KKkgwXYTk1Y4=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFGenericCompo
+ nentPropertiesFormPart$LogicalControlManager.class
+SHA1-Digest: 8Bnnp3swXN1hjaBw0/ZxENcJx+s=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $XMLStringManipulator.class
+SHA1-Digest: ycVg/GniSVohKJME5Jx8I9Y2cAk=
+
+Name: com/genuitec/eclipse/webdesigner3/Messages.class
+SHA1-Digest: WM1aI0yxeB+CvWR1OZhoj/lAFYU=
+
+Name: com/genuitec/eclipse/webdesigner3/util/WebDesigner3Util.class
+SHA1-Digest: ejlC+ONAjUVLcwW8bgDpGnx3J1E=
+
+Name: com/genuitec/eclipse/webdesigner3/action/RevertAction.class
+SHA1-Digest: TBKD3NSVTY/+5m1gTwcnl8Ovclw=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/ElementList.class
+SHA1-Digest: pFQcX3RYDZgmSwud51uMz8laCpo=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCheckBoxGroup
+ WizardPage.class
+SHA1-Digest: 4UXWbVBxqaxhyrmYNuDqUPEvezo=
+
+Name: tk/eclipse/plugin/jspeditor/editors/JSPPreviewConverter.class
+SHA1-Digest: JdbyuGeEuS4SsQ+tTe0alMY1xTs=
+
+Name: com/genuitec/eclipse/webdesigner3/design/DesignEditSystem.class
+SHA1-Digest: lg23lKfMLPxD9RXnTavGdUzJS+M=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateMessageWizard
+ .class
+SHA1-Digest: ttkG3Rxki2njIbkR4pXIJP3NGsc=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerProperty
+ Sheet.class
+SHA1-Digest: r134wRf2/Z5C0wTCT0oh0Jfxtro=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionComponentW
+ izardPage$SelectionItemLabelProvider.class
+SHA1-Digest: FVu2c/jg4VD+8UTnihuCT1jRiGE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/SelectionItemEntry$
+ 1.class
+SHA1-Digest: sSBk+Ebl0LK5Lv4eN8suNp+TE3g=
+
+Name: com/genuitec/eclipse/webdesigner3/dnd/AbstractWebdesignerDropAct
+ ion$1.class
+SHA1-Digest: wwhXlRlg4ihFSruRPMcLkYS2TKc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateTextareaWizard.cl
+ ass
+SHA1-Digest: ZQtNlDnoi1E6hrsEhAUckW2zBLM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/jsf/CreateCheckboxWizar
+ dPage.class
+SHA1-Digest: GFhY+zMZ0KOyHgncQMA0LT5KiNo=
+
+Name: com/genuitec/eclipse/webdesigner3/editors/WebDesignerMultiPageEd
+ itor$13.class
+SHA1-Digest: T/QVlhSenANc0goaFoUg0n3z5IE=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsRadi
+ oWizardPage.class
+SHA1-Digest: bKl2hmjZxXOjqIoSZxcHwKG5ovY=
+
+Name: com/genuitec/eclipse/webdesigner3/util/SnapUtils.class
+SHA1-Digest: /HIMGSJsVImGWTrbslY+AG3oyZk=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/IWebdesignerWizard.clas
+ s
+SHA1-Digest: a0Mp6wPMg0JdEf6h/hqnIPE3PbU=
+
+Name: icons/dlcl16/datagrid.gif
+SHA1-Digest: LajYUhAQCBTdMiOgvItmdkeUNC0=
+
+Name: com/genuitec/eclipse/webdesigner3/palette/actions/jsf/JSFActionI
+ mages.class
+SHA1-Digest: YqDJLKpnP1nhlH5QUe2EmzzPxT4=
+
+Name: com/genuitec/eclipse/webdesigner3/bindings/UIData$Column.class
+SHA1-Digest: bCaGTSnldmZlvDwAxCEYILD4TO0=
+
+Name: wd3/bindings/img/jsf.gif
+SHA1-Digest: 5ulnod2wvfMV7yC89y42NyBb0RU=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsCheckb
+ oxPropertiesFormPart$StrutsMultiboxCheckboxControlManager.class
+SHA1-Digest: CD+RvqvnEVI3kpXjkimzsJ6CIoM=
+
+Name: icons/dlcl16/panel.gif
+SHA1-Digest: X4lnTrUp1JqCsVpAe/vghMBUlE0=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/jsf/JSFDataTablePro
+ pertiesFormPart.class
+SHA1-Digest: kH5uDUw3o2S0r1eHGEqymaMCgSI=
+
+Name: jp/aonir/fuzzyxml/xpath/FuzzyXMLNodeIterator.class
+SHA1-Digest: XcwnUfB0l888XjoHsSFOsON1gi4=
+
+Name: com/genuitec/eclipse/webdesigner3/preview/jsf/JSFButtonConverter
+ .class
+SHA1-Digest: 2Ae/Ll699KOB2VvaWZLI99U8zHs=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/struts/CreateStrutsText
+ fieldWizard.class
+SHA1-Digest: ACUofunRTIwB9iMgVazzMwp7hic=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateTextfieldWizardPa
+ ge.class
+SHA1-Digest: OjOSjFsKxuwl3Geuq5x+GC9tWMs=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $SelectionControlManager.class
+SHA1-Digest: X42pDpF8Os0n8wLSlUbuj1XkEfc=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CheckboxListDialogField
+ .class
+SHA1-Digest: +lV1HOr4fr/4dI2WPhcAAUuFI7w=
+
+Name: icons/dlcl16/hidden.gif
+SHA1-Digest: aAEn7phol5eZsXQLcIeRp5crwtM=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/WizardUtil.class
+SHA1-Digest: 0n8AFka4WstE6F1MuBNiYErPqBU=
+
+Name: jp/aonir/fuzzyxml/sample/Console.class
+SHA1-Digest: kZwQHKYAw5jJZXlfbR3iiNV6GU8=
+
+Name: wd3/bindings/img/script.gif
+SHA1-Digest: DPBPRKQv1CDrfKgzvd45KhreSJI=
+
+Name: com/genuitec/eclipse/webdesigner3/action/AbstractCommentActionJS
+ PDelegate.class
+SHA1-Digest: 2j+/uCeVVbB/uJ+tpcQgYPcG2qY=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/struts/StrutsSelect
+ ionPropertiesFormPart$StrutsOptionLabelProvider.class
+SHA1-Digest: 1y1NEMMZaPkLli3kxik29qEVVp0=
+
+Name: com/genuitec/eclipse/webdesigner3/properties/WebdesignerFormPart
+ $UnitComboManager.class
+SHA1-Digest: 9Pgz62nvlJGd+u0o3dgfGCFEYVo=
+
+Name: icons/dlcl16/combo.gif
+SHA1-Digest: 2KP97wzuKZxrFupYDstSN34lzVc=
+
+Name: icons/elcl16/checkbox.gif
+SHA1-Digest: 8LSjcMZKTDAxveauFOnjIoQTu8Q=
+
+Name: com/genuitec/eclipse/webdesigner3/wizard/CreateTextareaWizardPag
+ e.class
+SHA1-Digest: Mw+wyvZa9ABqmdz5WCtlTnuA620=
+

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl"
+          xmlns:xbl="http://www.mozilla.org/xbl" 
+		  xmlns:html="http://www.w3.org/1999/xhtml">
+		  	
+	<binding id="$bindingId">
+		<content>
+			<html:div style="border:1px dotted red; display:table">
+				<html:img style="padding-left:2px; padding-right:1px" src="${dataTable.getReadOnlyImage()}" /> 
+#if($dataTable.hasWarningMessage())
+				<html:img style="padding-left:1px" src="${dataTable.getWarningImage()}" /> 
+#end
+				<html:br/>
+			<html:table 
+#if($dataTable.getClassName()) 
+				class="${dataTable.getClassName()}"
+#end 
+#if($dataTable.getDataRow().getColumnCount() == 0)
+				width="200"
+#end
+				anonid="anontable">
+
+#if($dataTable.getHeader())
+				<html:thead>
+					<html:tr>
+						<html:th 
+#if($dataTable.getHeader().getClassName())
+							class="${dataTable.getHeader().getClassName()}"
+#end
+							colspan="${dataTable.getColumnCount()}" 
+							scope="colgroup">
+							${dataTable.getHeader().getOutputValue()}
+						</html:th>
+					</html:tr>
+				</html:thead>
+#end
+
+#if($dataTable.getFooter())
+				<html:tfoot>
+					<html:tr>
+						<html:td 
+#if($dataTable.getFooter().getClassName())
+							class="${dataTable.getFooter().getClassName()}" 
+#end						
+							colspan="${dataTable.getColumnCount()}">
+							${dataTable.getFooter().getOutputValue()}
+						</html:td>
+					</html:tr>
+				</html:tfoot>
+#end
+
+				<html:tbody>
+					<html:tr>
+#if($dataTable.getDataRow().getColumnCount() > 0)
+#foreach($col in $dataTable.getDataRow().getColumns())
+						<html:td valign="top" style="margin: 0px; padding: 0px">
+							${col.getOutputValue()}
+						</html:td>
+#end
+#else
+						<html:td>
+							<html:br/>
+						</html:td>
+#end
+					</html:tr>
+				</html:tbody>
+			</html:table>
+			</html:div>
+			<html:span style="display:none"><children/></html:span>
+		</content>
+	    
+	    <!-- 
+	    	TODO provide impl that manages style and styleClass attrs for panelgrid element
+	    -->
+		<implementation>
+#parse("wd3/templates/jsf/html/commonimpl.vm")	    
+	    	
+			<method name="update">
+	    		<body><![CDATA[
+	    			var anontable = document.getAnonymousElementByAttribute(this, "anonid", "anontable");
+	    			this.cloneAttributes(this, anontable, new Array("border","bgcolor","cellpadding","cellspacing","width","rules","frame","title"));
+#if($dataTable.hasWarningMessage())
+					this.setAttribute("title", "$dataTable.getWarningMessage()");
+#else
+					this.setAttribute("title", "$dataTable.getReadOnlyMessage()");
+#end
+	    		]]></body>
+	    	</method>
+		</implementation>
+	    
+	</binding>
+</bindings>
